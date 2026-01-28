@@ -1,0 +1,369 @@
+{
+  "Animations": {
+    "Idle": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Idle_FPS.blockyanim",
+      "Speed": 1.2,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Idle.blockyanim",
+      "Looping": true
+    },
+    "Walk": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Walk_FPS.blockyanim",
+      "Speed": 1.1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Walk.blockyanim",
+      "Looping": true
+    },
+    "WalkBackward": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Walk_Backward_FPS.blockyanim",
+      "Speed": 1.1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Walk_Backward.blockyanim",
+      "Looping": true
+    },
+    "Run": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Run_FPS.blockyanim",
+      "Speed": 1.3,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Run.blockyanim",
+      "Looping": true
+    },
+    "RunBackward": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Run_Backward_FPS.blockyanim",
+      "Speed": 1.3,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Run_Backward.blockyanim",
+      "Looping": true
+    },
+    "Sprint": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Sprint_FPS.blockyanim",
+      "Speed": 1.4,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Sprint.blockyanim",
+      "Looping": true
+    },
+    "Crouch": {
+      "BlendingDuration": 0.1,
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Crouch_FPS.blockyanim",
+      "Speed": 1.0,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Crouch.blockyanim",
+      "Looping": true
+    },
+    "CrouchWalk": {
+      "BlendingDuration": 0.1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Crouch_Walk.blockyanim",
+      "Speed": 1.1,
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Crouch_Walk_FPS.blockyanim",
+      "Looping": true
+    },
+    "CrouchWalkBackward": {
+      "BlendingDuration": 0.1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Crouch_Walk_Backward.blockyanim",
+      "Speed": 1.1,
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Crouch_Walk_Backward_FPS.blockyanim",
+      "Looping": true
+    },
+    "Jump": {
+      "Speed": 1.2,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Jump.blockyanim",
+      "Looping": false,
+      "KeepPreviousFirstPersonAnimation": true
+    },
+    "JumpWalk": {
+      "Speed": 1.2,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Jump_Far.blockyanim",
+      "Looping": false,
+      "KeepPreviousFirstPersonAnimation": true
+    },
+    "JumpRun": {
+      "Speed": 1.2,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Jump_Far.blockyanim",
+      "Looping": false,
+      "KeepPreviousFirstPersonAnimation": true
+    },
+    "Fall": {
+      "BlendingDuration": 0.3,
+      "Speed": 1.1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Fall.blockyanim",
+      "Looping": true,
+      "KeepPreviousFirstPersonAnimation": true
+    },
+    "FallFar": {
+      "BlendingDuration": 0.3,
+      "Speed": 1.1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Fall_Far.blockyanim",
+      "Looping": true,
+      "KeepPreviousFirstPersonAnimation": true
+    },
+    "FlyIdle": {
+      "Speed": 1.0,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Fly/Fly_Idle.blockyanim",
+      "Looping": true,
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Fly/Fly_Idle_FPS.blockyanim"
+    },
+    "Fly": {
+      "Looping": true,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Fly/Fly.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Fly/Fly_FPS.blockyanim"
+    },
+    "FlyBackward": {
+      "Looping": true,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Fly/Fly_Backward.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Fly/Fly_Backward_FPS.blockyanim"
+    },
+    "FlyFast": {
+      "Looping": true,
+      "Speed": 1.3,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Fly/Fly_Fast.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Fly/Fly_Fast_FPS.blockyanim"
+    },
+    "SwimIdle": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Swim/Swim_Idle_FPS.blockyanim",
+      "Speed": 1.0,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Swim/Swim_Idle.blockyanim",
+      "Looping": true
+    },
+    "Swim": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Swim/Swim_FPS.blockyanim",
+      "Speed": 1.0,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Swim/Swim.blockyanim",
+      "Looping": true
+    },
+    "SwimBackward": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Swim/Swim_Backward_FPS.blockyanim",
+      "Speed": 1.0,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Swim/Swim_Backward.blockyanim",
+      "Looping": true
+    },
+    "SwimFast": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Swim/Swim_Fast_FPS.blockyanim",
+      "Speed": 1.1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Swim/Swim_Fast.blockyanim",
+      "Looping": true
+    },
+    "SwimJump": {
+      "BlendingDuration": 0.1,
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Swim/Swim_Jump_FPS.blockyanim",
+      "Speed": 1.0,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Swim/Swim_Jump.blockyanim",
+      "Looping": false
+    },
+    "SwimFloat": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Swim/Swim_Float_FPS.blockyanim",
+      "Speed": 1.0,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Swim/Swim_Float.blockyanim",
+      "Looping": true
+    },
+    "SwimSink": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Swim/Swim_Sink_FPS.blockyanim",
+      "Speed": 1.0,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Swim/Swim_Sink.blockyanim",
+      "Looping": true
+    },
+    "SwimDive": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Swim/Swim_Dive_FPS.blockyanim",
+      "Speed": 1.1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Swim/Swim_Dive.blockyanim",
+      "Looping": true
+    },
+    "SwimDiveBackward": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Swim/Swim_Dive_Backward_FPS.blockyanim",
+      "Speed": 1.0,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Swim/Swim_Dive_Backward.blockyanim",
+      "Looping": true
+    },
+    "SwimDiveFast": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Swim/Swim_Dive_Fast_FPS.blockyanim",
+      "Speed": 1.1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Swim/Swim_Dive_Fast.blockyanim",
+      "Looping": true
+    },
+    "FluidIdle": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Idle_FPS.blockyanim",
+      "Speed": 0.5,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Idle.blockyanim",
+      "Looping": true
+    },
+    "FluidWalk": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Walk_FPS.blockyanim",
+      "Speed": 0.7,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Walk.blockyanim",
+      "Looping": true
+    },
+    "FluidWalkBackward": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Walk_Backward_FPS.blockyanim",
+      "Speed": 0.7,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Walk_Backward.blockyanim",
+      "Looping": true
+    },
+    "FluidRun": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Run_FPS.blockyanim",
+      "Speed": 0.8,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Run.blockyanim",
+      "Looping": true
+    },
+    "ClimbIdle": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Climb/Climb_Idle_FPS.blockyanim",
+      "Speed": 1.0,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Climb/Climb_Idle.blockyanim",
+      "Looping": true
+    },
+    "ClimbUp": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Climb/Climb_Up_FPS.blockyanim",
+      "Speed": 1.1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Climb/Climb_Up.blockyanim",
+      "Looping": true
+    },
+    "ClimbDown": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Climb/Climb_Down_FPS.blockyanim",
+      "Speed": 1.1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Climb/Climb_Down.blockyanim",
+      "Looping": true
+    },
+    "ClimbLeft": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Climb/Climb_Left_FPS.blockyanim",
+      "Speed": 1.1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Climb/Climb_Left.blockyanim",
+      "Looping": true
+    },
+    "ClimbRight": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Climb/Climb_Right_FPS.blockyanim",
+      "Speed": 1.1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Climb/Climb_Right.blockyanim",
+      "Looping": true
+    },
+    "MantleUp": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Mantle/Mantle_Up_FPS.blockyanim",
+      "Speed": 1.1,
+      "BlendingDuration": 0,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Mantle/Mantle_Up.blockyanim",
+      "Looping": false
+    },
+    "Interact": {
+      "Speed": 1.0,
+      "BlendingDuration": 0.1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Interact.blockyanim",
+      "Looping": false,
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Interact_FPS.blockyanim"
+    },
+    "PouncePrepare": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Pounce/Pounce_Prepare.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Pounce/Pounce_Prepare_Moving.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Pounce/Pounce_Prepare_FPS.blockyanim",
+      "Speed": 1.2,
+      "Looping": true,
+      "KeepPreviousFirstPersonAnimation": true
+    },
+    "Pounce": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Pounce/Pounce.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Pounce/Pounce_FPS.blockyanim",
+      "Speed": 1.3,
+      "BlendingDuration": 0,
+      "ClipsGeometry": false,
+      "KeepPreviousFirstPersonAnimation": true
+    },
+    "PounceSlash": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Pounce/Pounce_Slash.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Pounce/Pounce_Slash_Moving.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Pounce/Pounce_Slash_FPS.blockyanim",
+      "Speed": 1.4,
+      "BlendingDuration": 0,
+      "ClipsGeometry": false,
+      "KeepPreviousFirstPersonAnimation": true
+    },
+    "Slash": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Slash/Slash.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Slash/Slash_Moving.blockyanim",
+      "ThirdPersonFace": "Characters/Animations/Expressions/Frown.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Slash/Slash_FPS.blockyanim",
+      "KeepPreviousFirstPersonAnimation": true,
+      "Speed": 1.3,
+      "ClipsGeometry": true
+    },
+    "StabBack": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Stab_Back/Stab_Back.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Stab_Back/Stab_Back_Moving.blockyanim",
+      "ThirdPersonFace": "Characters/Animations/Expressions/Frown.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Stab_Back/Stab_Back_FPS.blockyanim",
+      "KeepPreviousFirstPersonAnimation": true,
+      "Speed": 1.3,
+      "ClipsGeometry": true
+    },
+    "Guard": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Guard/Guard.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Guard/Guard_Moving.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Guard/Guard_FPS.blockyanim",
+      "ThirdPersonFace": "Characters/Animations/Expressions/Frown.blockyanim",
+      "KeepPreviousFirstPersonAnimation": true,
+      "BlendingDuration": 0.1,
+      "Looping": true
+    },
+    "GuardBash": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Guard_Bash/Guard_Bash.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Guard_Bash/Guard_Bash_Moving.blockyanim",
+      "ThirdPersonFace": "Characters/Animations/Expressions/Angry.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Guard_Bash/Guard_Bash_FPS.blockyanim",
+      "KeepPreviousFirstPersonAnimation": true,
+      "ClipsGeometry": false,
+      "BlendingDuration": 0.1
+    },
+    "RazorstrikeCharging": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Razorstrike/Razorstrike_Charging.blockyanim",
+      "ThirdPersonFace": "Characters/Animations/Expressions/Frown.blockyanim",
+      "Speed": 1.5,
+      "BlendingDuration": 0.2,
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Razorstrike/Razorstrike_Charging_Moving.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Razorstrike/Razorstrike_Charging_FPS.blockyanim",
+      "ClipsGeometry": true
+    },
+    "RazorstrikeSlash": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Razorstrike/Razorstrike_Slash.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Razorstrike/Razorstrike_Slash_Moving.blockyanim",
+      "ThirdPersonFace": "Characters/Animations/Expressions/Rage.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Razorstrike/Razorstrike_Slash_FPS.blockyanim",
+      "KeepPreviousFirstPersonAnimation": true,
+      "Speed": 1.5,
+      "BlendingDuration": 0,
+      "ClipsGeometry": true
+    },
+    "RazorstrikeStab": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Razorstrike/Razorstrike_Stab.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Razorstrike/Razorstrike_Stab_Moving.blockyanim",
+      "ThirdPersonFace": "Characters/Animations/Expressions/Rage.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Razorstrike/Razorstrike_Stab_FPS.blockyanim",
+      "KeepPreviousFirstPersonAnimation": true,
+      "Speed": 1.5,
+      "BlendingDuration": 0,
+      "ClipsGeometry": true
+    },
+    "RazorstrikeFinisher": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Razorstrike/Razorstrike_Finisher.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Razorstrike/Razorstrike_Finisher_Moving.blockyanim",
+      "ThirdPersonFace": "Characters/Animations/Expressions/Rage.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Razorstrike/Razorstrike_Finisher_FPS.blockyanim",
+      "KeepPreviousFirstPersonAnimation": true,
+      "Speed": 1.6,
+      "BlendingDuration": 0,
+      "ClipsGeometry": true
+    }
+  },
+  "Camera": {
+    "Pitch": {
+      "TargetNodes": [
+        "Head",
+        "RShoulder"
+      ]
+    },
+    "Yaw": {
+      "TargetNodes": [
+        "Belly"
+      ]
+    }
+  },
+  "WiggleWeights": {
+    "Pitch": 3.0,
+    "PitchDeceleration": 0.1,
+    "Roll": 0.2,
+    "RollDeceleration": 0.1,
+    "X": 3.5,
+    "XDeceleration": 0.1,
+    "Y": 0.2,
+    "YDeceleration": 0.1,
+    "Z": 0.2,
+    "ZDeceleration": 0.1
+  }
+}
