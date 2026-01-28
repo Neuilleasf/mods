@@ -24,14 +24,16 @@
         "PositionOffset": { "X": 0.5, "Y": 0, "Z": 0 },
         "RotationOffset": { "Pitch": 0, "Roll": 90, "Yaw": 0 },
         "TargetNodeName": "Handle",
-        "TrailId": "Small_Charged"
+        "TrailId": "Small_Charged",
+        "Scale": 2.0
       },
       {
         "PositionOffset": { "X": 0.5, "Y": 0, "Z": 0 },
         "RotationOffset": { "Pitch": 0, "Roll": 90, "Yaw": 0 },
         "TargetNodeName": "Handle",
         "TrailId": "Small_Charged",
-        "TargetEntityPart": "SecondaryItem"
+        "TargetEntityPart": "SecondaryItem",
+        "Scale": 2.0
       }
     ],
     "FirstPersonParticles": [
@@ -39,14 +41,33 @@
         "SystemId": "Daggers_Pounce_FP",
         "TargetNodeName": "Handle",
         "RotationOffset": { "Roll": 90.0 },
-        "PositionOffset": { "X": 0.3 }
+        "PositionOffset": { "X": 0.3 },
+        "Scale": 1.5
       },
       {
         "SystemId": "Daggers_Pounce_FP",
         "TargetNodeName": "Handle",
         "RotationOffset": { "Roll": 90.0 },
         "PositionOffset": { "X": 0.3 },
-        "TargetEntityPart": "SecondaryItem"
+        "TargetEntityPart": "SecondaryItem",
+        "Scale": 1.5
+      }
+    ],
+    "Particles": [
+      {
+        "SystemId": "Flamethrower",
+        "TargetNodeName": "Handle",
+        "PositionOffset": { "X": 0.5, "Y": 0, "Z": 0 },
+        "RotationOffset": { "Pitch": 0, "Roll": 0, "Yaw": -90 },
+        "Scale": 0.3
+      },
+      {
+        "SystemId": "Flamethrower",
+        "TargetNodeName": "Handle",
+        "PositionOffset": { "X": 0.5, "Y": 0, "Z": 0 },
+        "RotationOffset": { "Pitch": 0, "Roll": 0, "Yaw": -90 },
+        "TargetEntityPart": "SecondaryItem",
+        "Scale": 0.3
       }
     ],
     "CameraEffect": "Daggers_Jump"

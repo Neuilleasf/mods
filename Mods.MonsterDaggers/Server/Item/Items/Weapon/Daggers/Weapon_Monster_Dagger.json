@@ -43,14 +43,16 @@
       "RotationOffset": { "Pitch": 0, "Roll": 90, "Yaw": 0 },
       "TargetNodeName": "Handle",
       "TargetEntityPart": "PrimaryItem",
-      "TrailId": "Small_Charged"
+      "TrailId": "Small_Charged",
+      "Scale": 1.5
     },
     {
       "PositionOffset": { "X": 0.5, "Y": 0, "Z": 0 },
       "RotationOffset": { "Pitch": 0, "Roll": 90, "Yaw": 0 },
       "TargetNodeName": "Handle",
       "TargetEntityPart": "SecondaryItem",
-      "TrailId": "Small_Charged"
+      "TrailId": "Small_Charged",
+      "Scale": 1.5
     }
   ],
   "InteractionVars": {
