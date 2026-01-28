@@ -1,0 +1,41 @@
+{
+  "Type": "Simple",
+  "RunTime": 0.12,
+  "Effects": {
+    "Trails": [
+      {
+        "PositionOffset": {
+          "X": 0.8,
+          "Y": 0,
+          "Z": 0
+        },
+        "RotationOffset": {
+          "Pitch": 0,
+          "Roll": 90,
+          "Yaw": 0
+        },
+        "TargetNodeName": "Handle",
+        "TrailId": "Critical"
+      }
+    ],
+    "WorldSoundEventId": "SFX_Sword_T2_Signature_Part_1",
+    "LocalSoundEventId": "SFX_Sword_T2_Signature_Part_1_Local",
+    "Particles": [
+      {
+        "SystemId": "Daggers_Signature_Sweep",
+        "TargetEntityPart": "Entity",
+        "TargetNodeName": "Hip",
+        "PositionOffset": {
+          "Y": 0.5,
+          "Z": 0.5
+        }
+      },
+      {
+        "SystemId": "Impact_Sword_Signature",
+        "TargetNodeName": "Handle",
+        "Scale": 0.8
+      }
+    ],
+    "CameraEffect": "Sword_Stab"
+  }
+}

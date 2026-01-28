@@ -1,0 +1,16 @@
+{
+  "TexturePath": "Trails/Lighter_Sword_Trail2.png",
+  "LifeSpan": 5,
+  "Roll": 0,
+  "Start": {
+    "Color": "rgba(#ffffff, 1)",
+    "Width": 0.7
+  },
+  "End": {
+    "Color": "rgba(#ffffff, 0.18)",
+    "Width": 0.1
+  },
+  "LightInfluence": 0,
+  "Smooth": true,
+  "RenderMode": "Erosion"
+}

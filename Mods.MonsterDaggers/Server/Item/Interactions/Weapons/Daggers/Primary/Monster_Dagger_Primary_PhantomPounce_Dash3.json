@@ -1,0 +1,11 @@
+{
+  "Type": "Serial",
+  "Interactions": [
+    "Monster_Dagger_Primary_PhantomPounce_Dash3_Force",
+    "Monster_Dagger_Primary_PhantomPounce_Dash3_Selector",
+    {
+      "Type": "Simple",
+      "RunTime": 0.1
+    }
+  ]
+}

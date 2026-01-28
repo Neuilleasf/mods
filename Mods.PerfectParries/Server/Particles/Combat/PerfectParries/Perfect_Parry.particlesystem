@@ -1,0 +1,30 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "PP_Block_Land_Crystal_Parts",
+      "PositionOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "StartDelay": 0.03333333333333333
+    },
+    {
+      "SpawnerId": "PP_Block_Land_Hard_Crystal_Glow",
+      "PositionOffset": {
+        "X": 0,
+        "Y": 0.05,
+        "Z": 0
+      }
+    },
+    {
+      "SpawnerId": "PP_Block_Land_Crystal_Soft"
+    },
+    {
+      "SpawnerId": "Battleaxe_Bash_Dash"
+    },
+    {
+      "SpawnerId": "PP_Impact_Daggers_Bash_Star"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "Group": "Mods",
+  "Name": "BetterBow",
+  "Version": "1.0.0",
+  "Description": "Enhances the shortbow with increased damage, knockback on every arrow, and a Rapid Volley signature that fires 6 arrows in quick succession.",
+  "Authors": [
+    {
+      "Name": "nakai",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true,
+  "SubPlugins": []
+}

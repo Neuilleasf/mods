@@ -1,0 +1,37 @@
+{
+  "Parent": "Template_Weapon_Daggers",
+  "TranslationProperties": {
+    "Name": "server.items.CustomMonsterDaggerType.name"
+  },
+  "Quality": "Template",
+  "ItemLevel": 40,
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "Utility": {
+    "Compatible": true
+  },
+  "Interactions": {
+    "Primary": "Root_Monster_Dagger_Primary",
+    "Secondary": "Root_Weapon_Daggers_Secondary_Guard",
+    "Ability1": "Root_Monster_Dagger_Signature"
+  },
+  "Tags": {
+    "Type": ["Weapon"],
+    "Family": ["Dagger"]
+  },
+  "Weapon": {
+    "EntityStatsToClear": ["SignatureEnergy"],
+    "StatModifiers": {
+      "SignatureEnergy": [
+        {
+          "Amount": 20,
+          "CalculationType": "Additive"
+        }
+      ]
+    },
+    "RenderDualWielded": true
+  },
+  "MaxDurability": 300,
+  "DurabilityLossOnHit": 0.02
+}

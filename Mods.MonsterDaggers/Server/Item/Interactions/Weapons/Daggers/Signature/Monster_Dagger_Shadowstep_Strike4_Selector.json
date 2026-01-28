@@ -1,0 +1,28 @@
+{
+  "Type": "Selector",
+  "RunTime": 0.08,
+  "Selector": {
+    "Id": "Stab",
+    "ExtendTop": 0.8,
+    "ExtendBottom": 0.8,
+    "ExtendLeft": 0.8,
+    "ExtendRight": 0.8,
+    "EndDistance": 2.8
+  },
+  "Effects": {
+    "CameraEffect": "Daggers_Stab"
+  },
+  "HitBlock": { "Interactions": [ "Block_Break_Adventure" ] },
+  "HitEntity": {
+    "Interactions": [
+      {
+        "Type": "Replace",
+        "DefaultOk": true,
+        "DefaultValue": {
+          "Interactions": [ "Weapon_Daggers_Signature_Razorstrike_Lunge_Damage" ]
+        },
+        "Var": "Shadowstep_Strike4_Damage"
+      }
+    ]
+  }
+}

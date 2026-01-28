@@ -1,0 +1,14 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Execution_Lunge_Sparks_Red",
+      "FixedRotation": false
+    },
+    {
+      "SpawnerId": "Execution_Lunge_Flash_Red",
+      "StartDelay": 0
+    }
+  ],
+  "BoundingRadius": 10,
+  "IsImportant": false
+}

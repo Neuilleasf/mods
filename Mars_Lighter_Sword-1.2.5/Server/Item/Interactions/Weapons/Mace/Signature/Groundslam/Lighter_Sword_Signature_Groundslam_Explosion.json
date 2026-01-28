@@ -1,0 +1,33 @@
+{
+  "Type": "Simple",
+  "RunTime": 0.7,
+  "Effects": {
+    "Particles": [
+      {
+        "SystemId": "Mace_Signature_Ground_Hit",
+        "TargetEntityPart": "Entity",
+        "TargetNodeName": "Hip",
+        "PositionOffset": {
+          "Y": 0.1
+        }
+      },
+      {
+        "SystemId": "ForgottenTemple_Beam_Custom",
+        "RotationOffset": {
+          "Yaw": 90,
+          "Pitch": 0
+        },
+        "PositionOffset": {
+          "Y": 1,
+          "Z": 0
+        },
+        "TargetEntityPart": "Entity",
+        "TargetNodeName": "Hip",
+        "Scale": 2
+      }
+    ],
+    "CameraEffect": "Mace_Explode",
+    "LocalSoundEventId": "SFX_Explosion",
+    "WorldSoundEventId": "SFX_Explosion"
+  }
+}

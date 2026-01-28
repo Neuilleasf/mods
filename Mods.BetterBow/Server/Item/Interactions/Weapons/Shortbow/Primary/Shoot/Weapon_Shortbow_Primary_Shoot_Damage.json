@@ -1,0 +1,38 @@
+{
+  "Parent": "DamageEntityParent",
+  "DamageCalculator": {
+    "Class": "Charged",
+    "BaseDamage": {
+      "Physical": 6
+    }
+  },
+  "DamageEffects": {
+    "Knockback": {
+      "Type": "Force",
+      "VelocityConfig": {
+        "AirResistance": 0.97,
+        "AirResistanceMax": 0.96,
+        "GroundResistance": 0.94,
+        "GroundResistanceMax": 0.3,
+        "Threshold": 3.0,
+        "Style": "Exp"
+      },
+      "Direction": {
+        "X": 0.0,
+        "Y": 3.0,
+        "Z": -6
+      },
+      "Force": 20,
+      "VelocityType": "Add"
+    },
+    "WorldParticles": [
+      {
+        "SystemId": "Impact_Critical",
+        "Scale": 1.3
+      }
+    ],
+    "WorldSoundEventId": "SFX_Bow_T2_Slash_Impact",
+    "LocalSoundEventId": "SFX_Bow_T2_Slash_Impact",
+    "CameraEffect": "Impact_Light"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "Type": "ApplyEffect",
+  "EffectId": "Lava_Burn_XBlue",
+  "Entity": "Target",
+  "Effects": {
+    "WorldSoundEventId": "SFX_Staff_Flame_Fireball_Impact",
+    "LocalSoundEventId": "SFX_Staff_Flame_Fireball_Impact"
+  }
+}

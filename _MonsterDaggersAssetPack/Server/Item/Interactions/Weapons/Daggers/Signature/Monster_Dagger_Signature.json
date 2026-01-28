@@ -1,0 +1,76 @@
+{
+  "Type": "StatsCondition",
+  "Costs": {
+    "SignatureEnergy": 100
+  },
+  "ValueType": "Percent",
+  "Next": {
+    "Type": "Serial",
+    "Interactions": [
+      {
+        "Type": "Replace",
+        "Var": "Razorstrike_EntityEffect",
+        "DefaultOk": true,
+        "DefaultValue": {
+          "Interactions": [
+            {
+              "Type": "ApplyEffect",
+              "EffectId": "Dagger_Signature"
+            }
+          ]
+        }
+      },
+      {
+        "Type": "Replace",
+        "Var": "Razorstrike_Slash",
+        "DefaultOk": true,
+        "DefaultValue": {
+          "Interactions": [
+            "Monster_Dagger_Signature_Slash"
+          ]
+        }
+      },
+      {
+        "Type": "Replace",
+        "Var": "Razorstrike_Sweep",
+        "DefaultOk": true,
+        "DefaultValue": {
+          "Interactions": [
+            "Monster_Dagger_Signature_Sweep"
+          ]
+        }
+      },
+      {
+        "Type": "Simple",
+        "RunTime": 0.08,
+        "Next": "Monster_Dagger_Signature_Dash"
+      },
+      {
+        "Type": "Replace",
+        "Var": "Razorstrike_Lunge",
+        "DefaultOk": true,
+        "DefaultValue": {
+          "Interactions": [
+            "Monster_Dagger_Signature_Lunge"
+          ]
+        }
+      },
+      {
+        "Type": "Replace",
+        "Var": "Razorstrike_SignatureCost",
+        "DefaultOk": true,
+        "DefaultValue": {
+          "Interactions": [
+            {
+              "Type": "ChangeStat",
+              "ValueType": "Percent",
+              "StatModifiers": {
+                "SignatureEnergy": -100
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

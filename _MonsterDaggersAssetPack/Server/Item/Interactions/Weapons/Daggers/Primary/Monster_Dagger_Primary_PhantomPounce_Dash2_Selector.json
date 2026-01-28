@@ -1,0 +1,37 @@
+{
+  "Type": "Selector",
+  "RunTime": 0.08,
+  "Selector": {
+    "Id": "Stab",
+    "ExtendTop": 0.6,
+    "ExtendBottom": 0.8,
+    "ExtendLeft": 0.8,
+    "ExtendRight": 0.8,
+    "EndDistance": 2.7
+  },
+  "Effects": {
+    "CameraEffect": "Daggers_Stab",
+    "Particles": [
+      {
+        "SystemId": "Daggers_Signature_Dash",
+        "TargetEntityPart": "Entity",
+        "PositionOffset": { "Y": 0.6 }
+      }
+    ]
+  },
+  "HitBlock": {
+    "Interactions": [ "Block_Break_Adventure" ]
+  },
+  "HitEntity": {
+    "Interactions": [
+      {
+        "Type": "Replace",
+        "DefaultOk": true,
+        "DefaultValue": {
+          "Interactions": [ "Weapon_Daggers_Primary_Pounce_Stab_Damage" ]
+        },
+        "Var": "PhantomPounce_Dash2_Damage"
+      }
+    ]
+  }
+}

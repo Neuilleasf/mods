@@ -1,0 +1,20 @@
+{
+  "Group": "Mars",
+  "Name": "Lighter Sword",
+  "Version": "1.2.5",
+  "Description": "",
+  "Authors":  [
+    {
+      "Name": "Mars",
+      "Email": "",
+      "Url": "https://x.com/Mars_Blocky"
+    }
+  ],
+  "Website": "https://x.com/Mars_Blocky",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}

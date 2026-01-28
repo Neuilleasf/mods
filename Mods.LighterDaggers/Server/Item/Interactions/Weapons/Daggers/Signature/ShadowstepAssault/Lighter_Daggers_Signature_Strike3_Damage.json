@@ -1,0 +1,43 @@
+{
+  "Parent": "DamageEntityParent",
+  "DamageCalculator": {
+    "Class": "Signature"
+  },
+  "DamageMultiplier": 2.0,
+  "Effects": {
+    "CameraEffect": "Impact"
+  },
+  "DamageEffects": {
+    "Knockback": {
+      "Type": "Force",
+      "VelocityConfig": {
+        "AirResistance": 0.99,
+        "AirResistanceMax": 0.98,
+        "GroundResistance": 0.94,
+        "GroundResistanceMax": 0.3,
+        "Threshold": 3.0,
+        "Style": "Linear"
+      },
+      "Force": 12,
+      "VelocityType": "Set",
+      "Direction": {
+        "X": 0,
+        "Y": 1,
+        "Z": -2
+      }
+    },
+    "WorldParticles": [
+      {
+        "SystemId": "Impact_Dagger_Slash",
+        "Scale": 1.5
+      },
+      {
+        "SystemId": "Impact_Critical",
+        "Scale": 1.5
+      }
+    ],
+    "WorldSoundEventId": "SFX_Daggers_T2_Slash_Impact",
+    "LocalSoundEventId": "SFX_Daggers_T2_Slash_Impact",
+    "CameraEffect": "Impact_Light"
+  }
+}

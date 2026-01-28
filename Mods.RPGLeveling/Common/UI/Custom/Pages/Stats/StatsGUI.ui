@@ -1,0 +1,1472 @@
+$C = "../../Common.ui";
+$Nav = "../Nav/RPGLeveling_Sidebar.ui";
+
+@CustomButtonStyle = TextButtonStyle(
+  Default: (Background: $C.@DefaultSquareButtonDefaultBackground, LabelStyle: $C.@DefaultButtonLabelStyle),
+  Hovered: (Background: $C.@DefaultSquareButtonHoveredBackground, LabelStyle: $C.@DefaultButtonLabelStyle),
+  Pressed: (Background: $C.@DefaultSquareButtonPressedBackground, LabelStyle: $C.@DefaultButtonLabelStyle),
+  Disabled: (Background: $C.@DefaultSquareButtonDisabledBackground, LabelStyle: $C.@DefaultButtonDisabledLabelStyle),
+  Sounds: $C.@ButtonSounds,
+);
+
+$C.@PageOverlay {
+  $C.@Container {
+    Anchor: (Width: 900, Height: 700);
+    Padding: (Full: 0);
+
+    #Title {
+      Group {
+        
+        $C.@Title {
+          @Text = "RPG Leveling";
+        }
+      }
+    }
+
+    #Content {
+      LayoutMode: Left;
+      Padding: (Left:7, Bottom: 7);
+
+      Group #Sidebar {
+        Anchor: (Width: 180);
+        LayoutMode: Top;
+        Background: #0a0f14;
+        FlexWeight: 0;
+        Padding: (Full: 0);
+        
+        Group {
+          Anchor: (Height: 0);
+        }
+        
+        Group #NavStatsButtonGroup {
+          LayoutMode: Top;
+          
+          $C.@TextButton #NavStatsButtonSelected { 
+            Text: "STATS MANAGEMENT"; 
+            Style: $Nav.@SidebarButtonFocusedStyle; 
+            Padding: (Top: 14, Bottom: 14, Left: 12, Right: 12);
+            Anchor: (Height: 50);
+            Visible: true;
+          }
+          
+          $C.@TextButton #NavStatsButton { 
+            Text: "STATS MANAGEMENT"; 
+            Style: $Nav.@SidebarButtonStyle; 
+            Padding: (Top: 14, Bottom: 14, Left: 12, Right: 12);
+            Anchor: (Height: 50);
+            Visible: false;
+          }
+        }
+        
+        Group {
+          Anchor: (Height: 4);
+        }
+        
+        Group #NavLeaderboardButtonGroup {
+          LayoutMode: Top;
+          
+          $C.@TextButton #NavLeaderboardButtonSelected { 
+            Text: "LEADERBOARD"; 
+            Style: $Nav.@SidebarButtonFocusedStyle; 
+            Padding: (Top: 14, Bottom: 14, Left: 12, Right: 12);
+            Anchor: (Height: 50);
+            Visible: false;
+          }
+          
+          $C.@TextButton #NavLeaderboardButton { 
+            Text: "LEADERBOARD"; 
+            Style: $Nav.@SidebarButtonStyle; 
+            Padding: (Top: 14, Bottom: 14, Left: 12, Right: 12);
+            Anchor: (Height: 50);
+            Visible: true;
+          }
+        }
+      }
+
+      Group #ContentArea {
+        FlexWeight: 1;
+        LayoutMode: Top;
+        Padding: (Left: 20, Right: 20, Bottom: 20, Top: 0);
+
+        Group #StatsPage {
+          LayoutMode: Top;
+          Padding: (Full: 0);
+
+          Group {
+            LayoutMode: Top;
+            Padding: (Top: 10, Bottom: 10);
+
+        Label #LevelLabel {
+          Style: (
+            FontSize: 20,
+            TextColor: #ffffff,
+            RenderBold: true
+          );
+          Anchor: ();
+          Text: " - Level 1";
+          Padding: (Bottom: 5);
+        }
+
+        Group #ProgressBarContainer {
+          Anchor: (Width: 680, Height: 18);
+          Background: "XPBackground.png";
+
+          ProgressBar #ProgressBar {
+            Anchor: (Width: 680, Height: 18);
+            BarTexturePath: "XPFill.png";
+            EffectTexturePath: "XPEffect.png";
+            Value: 0.0;
+          }
+        }
+
+        Label #XPProgressLabel {
+          Style: (
+            FontSize: 14,
+            TextColor: #ffffff,
+            RenderBold: false
+          );
+          Anchor: ();
+          Text: "0.0 / 0.0 XP (0%)";
+          Padding: (Top: 2, Bottom: 5);
+        }
+      }
+
+      Label #AvailablePointsLabel {
+        Style: (
+          FontSize: 20,
+          TextColor: #ffffff,
+          RenderBold: true
+        );
+        Anchor: ();
+        Text: "Available Stat Points: 0";
+        Padding: (Bottom: 5);
+      }
+
+      Group #StatsList {
+        Anchor: (Width: 720);
+        FlexWeight: 1;
+        LayoutMode: TopScrolling;
+        Padding: (Left: 7, Top: 2, Right: 12, Bottom: 4);
+        ScrollbarStyle: $C.@DefaultScrollbarStyle;
+
+        Group {
+          LayoutMode: Top;
+
+          Group #HealthGroup {
+            Anchor: (Width: 680, Height: 70, Bottom: 3);
+            LayoutMode: Left;
+            Padding: (Full: 8);
+            Background: #1a1a1a(0.5);
+
+            Group #HealthIconContainer {
+              Anchor: (Width: 48, Height: 48);
+              Padding: (Right: 16);
+              Background: (Color: #2a2a2a(0.8));
+              OutlineColor: #3a3a3a;
+              OutlineSize: 2;
+
+              ItemIcon #HealthIcon {
+                Anchor: (Left: 4, Top: 4, Width: 40, Height: 40);
+              }
+            }
+
+            Group {
+              LayoutMode: Top;
+              Padding: (Left: 4, Right: 5);
+
+              Label #HealthAllocation {
+                Style: (
+                  FontSize: 16,
+                  TextColor: #ffffff,
+                  RenderBold: true
+                );
+                Anchor: (Width: 240, Height: 20);
+                Text: "Health 100";
+                Padding: (Bottom: 2);
+              }
+
+              Label #HealthDescription {
+                Style: (
+                  FontSize: 12,
+                  TextColor: #aaaaaa,
+                  RenderBold: false
+                );
+                Anchor: (Width: 240);
+                Text: "";
+              }
+            }
+
+            Label #HealthBonus {
+              Style: (
+                FontSize: 16,
+                TextColor: #90ee90,
+                RenderBold: true
+              );
+              Anchor: (Width: 80, Height: 40);
+              Text: "";
+              Padding: (Left: 5);
+            }
+
+            Group {
+              FlexWeight: 1;
+            }
+
+            Group {
+              LayoutMode: Left;
+              Padding: (Left: 0, Right: 0);
+
+              $C.@TextButton #HealthDecrement5 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "-5";
+                Style: @CustomButtonStyle;
+                Visible: false;
+              }
+
+              Group {
+                Anchor: (Width: 5, Height: 35);
+              }
+
+              $C.@TextButton #HealthDecrement1 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "-1";
+                Style: @CustomButtonStyle;
+                Visible: false;
+              }
+
+              Group {
+                Anchor: (Width: 10, Height: 35);
+              }
+
+              $C.@TextButton #HealthIncrement1 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "+1";
+                Style: @CustomButtonStyle;
+              }
+
+              Group {
+                Anchor: (Width: 5, Height: 35);
+              }
+
+              $C.@TextButton #HealthIncrement5 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "+5";
+                Style: @CustomButtonStyle;
+                Visible: false;
+              }
+            }
+          }
+
+          Group #StaminaGroup {
+            Anchor: (Width: 680, Height: 70, Bottom: 3);
+            LayoutMode: Left;
+            Padding: (Full: 8);
+            Background: #1a1a1a(0.5);
+
+            Group #StaminaIconContainer {
+              Anchor: (Width: 48, Height: 48);
+              Padding: (Right: 16);
+              Background: (Color: #2a2a2a(0.8));
+              OutlineColor: #3a3a3a;
+              OutlineSize: 2;
+
+              ItemIcon #StaminaIcon {
+                Anchor: (Left: 4, Top: 4, Width: 40, Height: 40);
+              }
+            }
+
+            Group {
+              LayoutMode: Top;
+              Padding: (Left: 4, Right: 5);
+
+              Label #StaminaAllocation {
+                Style: (
+                  FontSize: 16,
+                  TextColor: #ffffff,
+                  RenderBold: true
+                );
+                Anchor: (Width: 240, Height: 20);
+                Text: "Stamina 100";
+                Padding: (Bottom: 2);
+              }
+
+              Label #StaminaDescription {
+                Style: (
+                  FontSize: 12,
+                  TextColor: #aaaaaa,
+                  RenderBold: false
+                );
+                Anchor: (Width: 240);
+                Text: "";
+              }
+            }
+
+            Label #StaminaBonus {
+              Style: (
+                FontSize: 16,
+                TextColor: #90ee90,
+                RenderBold: true
+              );
+              Anchor: (Width: 80, Height: 40);
+              Text: "";
+              Padding: (Left: 5);
+            }
+
+            Group {
+              FlexWeight: 1;
+            }
+
+            Group {
+              LayoutMode: Left;
+              Padding: (Left: 0, Right: 0);
+
+              $C.@TextButton #StaminaDecrement5 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "-5";
+                Style: @CustomButtonStyle;
+                Visible: false;
+              }
+
+              Group {
+                Anchor: (Width: 5, Height: 35);
+              }
+
+              $C.@TextButton #StaminaDecrement1 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "-1";
+                Style: @CustomButtonStyle;
+                Visible: false;
+              }
+
+              Group {
+                Anchor: (Width: 10, Height: 35);
+              }
+
+              $C.@TextButton #StaminaIncrement1 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "+1";
+                Style: @CustomButtonStyle;
+              }
+
+              Group {
+                Anchor: (Width: 5, Height: 35);
+              }
+
+              $C.@TextButton #StaminaIncrement5 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "+5";
+                Style: @CustomButtonStyle;
+                Visible: false;
+              }
+            }
+          }
+
+          Group #StaminaRegenDelayGroup {
+            Anchor: (Width: 680, Height: 70, Bottom: 3);
+            LayoutMode: Left;
+            Padding: (Full: 8);
+            Background: #1a1a1a(0.5);
+
+            Group #StaminaRegenDelayIconContainer {
+              Anchor: (Width: 48, Height: 48);
+              Padding: (Right: 16);
+              Background: (Color: #2a2a2a(0.8));
+              OutlineColor: #3a3a3a;
+              OutlineSize: 2;
+
+              ItemIcon #StaminaRegenDelayIcon {
+                Anchor: (Left: 4, Top: 4, Width: 40, Height: 40);
+              }
+            }
+
+            Group {
+              LayoutMode: Top;
+              Padding: (Left: 4, Right: 5);
+
+              Label #StaminaRegenDelayAllocation {
+                Style: (
+                  FontSize: 16,
+                  TextColor: #ffffff,
+                  RenderBold: true
+                );
+                Anchor: (Width: 240, Height: 20);
+                Text: "StaminaRegenDelay 0";
+                Padding: (Bottom: 2);
+              }
+
+              Label #StaminaRegenDelayDescription {
+                Style: (
+                  FontSize: 12,
+                  TextColor: #aaaaaa,
+                  RenderBold: false
+                );
+                Anchor: (Width: 240);
+                Text: "";
+              }
+            }
+
+            Label #StaminaRegenDelayBonus {
+              Style: (
+                FontSize: 16,
+                TextColor: #90ee90,
+                RenderBold: true
+              );
+              Anchor: (Width: 80, Height: 40);
+              Text: "";
+              Padding: (Left: 5);
+            }
+
+            Group {
+              FlexWeight: 1;
+            }
+
+            Group {
+              LayoutMode: Left;
+              Padding: (Left: 0, Right: 0);
+
+              $C.@TextButton #StaminaRegenDelayDecrement5 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "-5";
+                Style: @CustomButtonStyle;
+                Visible: false;
+              }
+
+              Group {
+                Anchor: (Width: 5, Height: 35);
+              }
+
+              $C.@TextButton #StaminaRegenDelayDecrement1 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "-1";
+                Style: @CustomButtonStyle;
+                Visible: false;
+              }
+
+              Group {
+                Anchor: (Width: 10, Height: 35);
+              }
+
+              $C.@TextButton #StaminaRegenDelayIncrement1 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "+1";
+                Style: @CustomButtonStyle;
+              }
+
+              Group {
+                Anchor: (Width: 5, Height: 35);
+              }
+
+              $C.@TextButton #StaminaRegenDelayIncrement5 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "+5";
+                Style: @CustomButtonStyle;
+                Visible: false;
+              }
+            }
+          }
+
+          Group #StaminaConsumptionGroup {
+            Anchor: (Width: 680, Height: 70, Bottom: 3);
+            LayoutMode: Left;
+            Padding: (Full: 8);
+            Background: #1a1a1a(0.5);
+
+            Group #StaminaConsumptionIconContainer {
+              Anchor: (Width: 48, Height: 48);
+              Padding: (Right: 16);
+              Background: (Color: #2a2a2a(0.8));
+              OutlineColor: #3a3a3a;
+              OutlineSize: 2;
+
+              ItemIcon #StaminaConsumptionIcon {
+                Anchor: (Left: 4, Top: 4, Width: 40, Height: 40);
+              }
+            }
+
+            Group {
+              LayoutMode: Top;
+              Padding: (Left: 4, Right: 5);
+
+              Label #StaminaConsumptionAllocation {
+                Style: (
+                  FontSize: 16,
+                  TextColor: #ffffff,
+                  RenderBold: true
+                );
+                Anchor: (Width: 240, Height: 20);
+                Text: "StaminaConsumption 0";
+                Padding: (Bottom: 2);
+              }
+
+              Label #StaminaConsumptionDescription {
+                Style: (
+                  FontSize: 12,
+                  TextColor: #aaaaaa,
+                  RenderBold: false
+                );
+                Anchor: (Width: 240);
+                Text: "";
+              }
+            }
+
+            Label #StaminaConsumptionBonus {
+              Style: (
+                FontSize: 16,
+                TextColor: #90ee90,
+                RenderBold: true
+              );
+              Anchor: (Width: 80, Height: 40);
+              Text: "";
+              Padding: (Left: 5);
+            }
+
+            Group {
+              FlexWeight: 1;
+            }
+
+            Group {
+              LayoutMode: Left;
+              Padding: (Left: 0, Right: 0);
+
+              $C.@TextButton #StaminaConsumptionDecrement5 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "-5";
+                Style: @CustomButtonStyle;
+                Visible: false;
+              }
+
+              Group {
+                Anchor: (Width: 5, Height: 35);
+              }
+
+              $C.@TextButton #StaminaConsumptionDecrement1 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "-1";
+                Style: @CustomButtonStyle;
+                Visible: false;
+              }
+
+              Group {
+                Anchor: (Width: 10, Height: 35);
+              }
+
+              $C.@TextButton #StaminaConsumptionIncrement1 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "+1";
+                Style: @CustomButtonStyle;
+              }
+
+              Group {
+                Anchor: (Width: 5, Height: 35);
+              }
+
+              $C.@TextButton #StaminaConsumptionIncrement5 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "+5";
+                Style: @CustomButtonStyle;
+                Visible: false;
+              }
+            }
+          }
+
+          Group #DefenseGroup {
+            Anchor: (Width: 680, Height: 70, Bottom: 3);
+            LayoutMode: Left;
+            Padding: (Full: 8);
+            Background: #1a1a1a(0.5);
+
+            Group #DefenseIconContainer {
+              Anchor: (Width: 48, Height: 48);
+              Padding: (Right: 16);
+              Background: (Color: #2a2a2a(0.8));
+              OutlineColor: #3a3a3a;
+              OutlineSize: 2;
+
+              ItemIcon #DefenseIcon {
+                Anchor: (Left: 4, Top: 4, Width: 40, Height: 40);
+              }
+            }
+
+            Group {
+              LayoutMode: Top;
+              Padding: (Left: 4, Right: 5);
+
+              Label #DefenseAllocation {
+                Style: (
+                  FontSize: 16,
+                  TextColor: #ffffff,
+                  RenderBold: true
+                );
+                Anchor: (Width: 240, Height: 20);
+                Text: "Defense 0";
+                Padding: (Bottom: 2);
+              }
+
+              Label #DefenseDescription {
+                Style: (
+                  FontSize: 12,
+                  TextColor: #aaaaaa,
+                  RenderBold: false
+                );
+                Anchor: (Width: 240);
+                Text: "";
+              }
+            }
+
+            Label #DefenseBonus {
+              Style: (
+                FontSize: 16,
+                TextColor: #90ee90,
+                RenderBold: true
+              );
+              Anchor: (Width: 80, Height: 40);
+              Text: "";
+              Padding: (Left: 5);
+            }
+
+            Group {
+              FlexWeight: 1;
+            }
+
+            Group {
+              LayoutMode: Left;
+              Padding: (Left: 0, Right: 0);
+
+              $C.@TextButton #DefenseDecrement5 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "-5";
+                Style: @CustomButtonStyle;
+                Visible: false;
+              }
+
+              Group {
+                Anchor: (Width: 5, Height: 35);
+              }
+
+              $C.@TextButton #DefenseDecrement1 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "-1";
+                Style: @CustomButtonStyle;
+                Visible: false;
+              }
+
+              Group {
+                Anchor: (Width: 10, Height: 35);
+              }
+
+              $C.@TextButton #DefenseIncrement1 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "+1";
+                Style: @CustomButtonStyle;
+              }
+
+              Group {
+                Anchor: (Width: 5, Height: 35);
+              }
+
+              $C.@TextButton #DefenseIncrement5 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "+5";
+                Style: @CustomButtonStyle;
+                Visible: false;
+              }
+            }
+          }
+
+          Group #DamageGroup {
+            Anchor: (Width: 680, Height: 70, Bottom: 3);
+            LayoutMode: Left;
+            Padding: (Full: 8);
+            Background: #1a1a1a(0.5);
+
+            Group #DamageIconContainer {
+              Anchor: (Width: 48, Height: 48);
+              Padding: (Right: 16);
+              Background: (Color: #2a2a2a(0.8));
+              OutlineColor: #3a3a3a;
+              OutlineSize: 2;
+
+              ItemIcon #DamageIcon {
+                Anchor: (Left: 4, Top: 4, Width: 40, Height: 40);
+              }
+            }
+
+            Group {
+              LayoutMode: Top;
+              Padding: (Left: 4, Right: 5);
+
+              Label #DamageAllocation {
+                Style: (
+                  FontSize: 16,
+                  TextColor: #ffffff,
+                  RenderBold: true
+                );
+                Anchor: (Width: 240, Height: 20);
+                Text: "Damage 0";
+                Padding: (Bottom: 2);
+              }
+
+              Label #DamageDescription {
+                Style: (
+                  FontSize: 12,
+                  TextColor: #aaaaaa,
+                  RenderBold: false
+                );
+                Anchor: (Width: 240);
+                Text: "";
+              }
+            }
+
+            Label #DamageBonus {
+              Style: (
+                FontSize: 16,
+                TextColor: #90ee90,
+                RenderBold: true
+              );
+              Anchor: (Width: 80, Height: 40);
+              Text: "";
+              Padding: (Left: 5);
+            }
+
+            Group {
+              FlexWeight: 1;
+            }
+
+            Group {
+              LayoutMode: Left;
+              Padding: (Left: 0, Right: 0);
+
+              $C.@TextButton #DamageDecrement5 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "-5";
+                Style: @CustomButtonStyle;
+                Visible: false;
+              }
+
+              Group {
+                Anchor: (Width: 5, Height: 35);
+              }
+
+              $C.@TextButton #DamageDecrement1 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "-1";
+                Style: @CustomButtonStyle;
+                Visible: false;
+              }
+
+              Group {
+                Anchor: (Width: 10, Height: 35);
+              }
+
+              $C.@TextButton #DamageIncrement1 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "+1";
+                Style: @CustomButtonStyle;
+              }
+
+              Group {
+                Anchor: (Width: 5, Height: 35);
+              }
+
+              $C.@TextButton #DamageIncrement5 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "+5";
+                Style: @CustomButtonStyle;
+                Visible: false;
+              }
+            }
+          }
+
+          Group #ManaGroup {
+            Anchor: (Width: 680, Height: 70, Bottom: 3);
+            LayoutMode: Left;
+            Padding: (Full: 8);
+            Background: #1a1a1a(0.5);
+
+            Group #ManaIconContainer {
+              Anchor: (Width: 48, Height: 48);
+              Padding: (Right: 16);
+              Background: (Color: #2a2a2a(0.8));
+              OutlineColor: #3a3a3a;
+              OutlineSize: 2;
+
+              ItemIcon #ManaIcon {
+                Anchor: (Left: 4, Top: 4, Width: 40, Height: 40);
+              }
+            }
+
+            Group {
+              LayoutMode: Top;
+              Padding: (Left: 4, Right: 5);
+
+              Label #ManaAllocation {
+                Style: (
+                  FontSize: 16,
+                  TextColor: #ffffff,
+                  RenderBold: true
+                );
+                Anchor: (Width: 240, Height: 20);
+                Text: "Mana 100";
+                Padding: (Bottom: 2);
+              }
+
+              Label #ManaDescription {
+                Style: (
+                  FontSize: 12,
+                  TextColor: #aaaaaa,
+                  RenderBold: false
+                );
+                Anchor: (Width: 240);
+                Text: "";
+              }
+            }
+
+            Label #ManaBonus {
+              Style: (
+                FontSize: 16,
+                TextColor: #90ee90,
+                RenderBold: true
+              );
+              Anchor: (Width: 80, Height: 40);
+              Text: "";
+              Padding: (Left: 5);
+            }
+
+            Group {
+              FlexWeight: 1;
+            }
+
+            Group {
+              LayoutMode: Left;
+              Padding: (Left: 0, Right: 0);
+
+              $C.@TextButton #ManaDecrement5 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "-5";
+                Style: @CustomButtonStyle;
+                Visible: false;
+              }
+
+              Group {
+                Anchor: (Width: 5, Height: 35);
+              }
+
+              $C.@TextButton #ManaDecrement1 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "-1";
+                Style: @CustomButtonStyle;
+                Visible: false;
+              }
+
+              Group {
+                Anchor: (Width: 10, Height: 35);
+              }
+
+              $C.@TextButton #ManaIncrement1 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "+1";
+                Style: @CustomButtonStyle;
+              }
+
+              Group {
+                Anchor: (Width: 5, Height: 35);
+              }
+
+              $C.@TextButton #ManaIncrement5 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "+5";
+                Style: @CustomButtonStyle;
+                Visible: false;
+              }
+            }
+          }
+
+          Group #AmmoGroup {
+            Anchor: (Width: 680, Height: 70, Bottom: 3);
+            LayoutMode: Left;
+            Padding: (Full: 8);
+            Background: #1a1a1a(0.5);
+
+            Group #AmmoIconContainer {
+              Anchor: (Width: 48, Height: 48);
+              Padding: (Right: 16);
+              Background: (Color: #2a2a2a(0.8));
+              OutlineColor: #3a3a3a;
+              OutlineSize: 2;
+
+              ItemIcon #AmmoIcon {
+                Anchor: (Left: 4, Top: 4, Width: 40, Height: 40);
+              }
+            }
+
+            Group {
+              LayoutMode: Top;
+              Padding: (Left: 4, Right: 5);
+
+              Label #AmmoAllocation {
+                Style: (
+                  FontSize: 16,
+                  TextColor: #ffffff,
+                  RenderBold: true
+                );
+                Anchor: (Width: 240, Height: 20);
+                Text: "Ammo 100";
+                Padding: (Bottom: 2);
+              }
+
+              Label #AmmoDescription {
+                Style: (
+                  FontSize: 12,
+                  TextColor: #aaaaaa,
+                  RenderBold: false
+                );
+                Anchor: (Width: 240);
+                Text: "";
+              }
+            }
+
+            Label #AmmoBonus {
+              Style: (
+                FontSize: 16,
+                TextColor: #90ee90,
+                RenderBold: true
+              );
+              Anchor: (Width: 80, Height: 40);
+              Text: "";
+              Padding: (Left: 5);
+            }
+
+            Group {
+              FlexWeight: 1;
+            }
+
+            Group {
+              LayoutMode: Left;
+              Padding: (Left: 0, Right: 0);
+
+              $C.@TextButton #AmmoDecrement5 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "-5";
+                Style: @CustomButtonStyle;
+                Visible: false;
+              }
+
+              Group {
+                Anchor: (Width: 5, Height: 35);
+              }
+
+              $C.@TextButton #AmmoDecrement1 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "-1";
+                Style: @CustomButtonStyle;
+                Visible: false;
+              }
+
+              Group {
+                Anchor: (Width: 10, Height: 35);
+              }
+
+              $C.@TextButton #AmmoIncrement1 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "+1";
+                Style: @CustomButtonStyle;
+              }
+
+              Group {
+                Anchor: (Width: 5, Height: 35);
+              }
+
+              $C.@TextButton #AmmoIncrement5 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "+5";
+                Style: @CustomButtonStyle;
+                Visible: false;
+              }
+            }
+          }
+
+          Group #OxygenGroup {
+            Anchor: (Width: 680, Height: 70, Bottom: 3);
+            LayoutMode: Left;
+            Padding: (Full: 8);
+            Background: #1a1a1a(0.5);
+
+            Group #OxygenIconContainer {
+              Anchor: (Width: 48, Height: 48);
+              Padding: (Right: 16);
+              Background: (Color: #2a2a2a(0.8));
+              OutlineColor: #3a3a3a;
+              OutlineSize: 2;
+
+              ItemIcon #OxygenIcon {
+                Anchor: (Left: 4, Top: 4, Width: 40, Height: 40);
+              }
+            }
+
+            Group {
+              LayoutMode: Top;
+              Padding: (Left: 4, Right: 5);
+
+              Label #OxygenAllocation {
+                Style: (
+                  FontSize: 16,
+                  TextColor: #ffffff,
+                  RenderBold: true
+                );
+                Anchor: (Width: 240, Height: 20);
+                Text: "Oxygen 100";
+                Padding: (Bottom: 2);
+              }
+
+              Label #OxygenDescription {
+                Style: (
+                  FontSize: 12,
+                  TextColor: #aaaaaa,
+                  RenderBold: false
+                );
+                Anchor: (Width: 240);
+                Text: "";
+              }
+            }
+
+            Label #OxygenBonus {
+              Style: (
+                FontSize: 16,
+                TextColor: #90ee90,
+                RenderBold: true
+              );
+              Anchor: (Width: 80, Height: 40);
+              Text: "";
+              Padding: (Left: 5);
+            }
+
+            Group {
+              FlexWeight: 1;
+            }
+
+            Group {
+              LayoutMode: Left;
+              Padding: (Left: 0, Right: 0);
+
+              $C.@TextButton #OxygenDecrement5 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "-5";
+                Style: @CustomButtonStyle;
+                Visible: false;
+              }
+
+              Group {
+                Anchor: (Width: 5, Height: 35);
+              }
+
+              $C.@TextButton #OxygenDecrement1 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "-1";
+                Style: @CustomButtonStyle;
+                Visible: false;
+              }
+
+              Group {
+                Anchor: (Width: 10, Height: 35);
+              }
+
+              $C.@TextButton #OxygenIncrement1 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "+1";
+                Style: @CustomButtonStyle;
+              }
+
+              Group {
+                Anchor: (Width: 5, Height: 35);
+              }
+
+              $C.@TextButton #OxygenIncrement5 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "+5";
+                Style: @CustomButtonStyle;
+                Visible: false;
+              }
+            }
+          }
+
+          Group #MiningGroup {
+            Anchor: (Width: 680, Height: 70, Bottom: 3);
+            LayoutMode: Left;
+            Padding: (Full: 8);
+            Background: #1a1a1a(0.5);
+
+            Group #MiningIconContainer {
+              Anchor: (Width: 48, Height: 48);
+              Padding: (Right: 16);
+              Background: (Color: #2a2a2a(0.8));
+              OutlineColor: #3a3a3a;
+              OutlineSize: 2;
+
+              ItemIcon #MiningIcon {
+                Anchor: (Left: 4, Top: 4, Width: 40, Height: 40);
+              }
+            }
+
+            Group {
+              LayoutMode: Top;
+              Padding: (Left: 4, Right: 5);
+
+              Label #MiningAllocation {
+                Style: (
+                  FontSize: 16,
+                  TextColor: #ffffff,
+                  RenderBold: true
+                );
+                Anchor: (Width: 240, Height: 20);
+                Text: "Mining 0";
+                Padding: (Bottom: 2);
+              }
+
+              Label #MiningDescription {
+                Style: (
+                  FontSize: 12,
+                  TextColor: #aaaaaa,
+                  RenderBold: false
+                );
+                Anchor: (Width: 240);
+                Text: "";
+              }
+            }
+
+            Label #MiningBonus {
+              Style: (
+                FontSize: 16,
+                TextColor: #90ee90,
+                RenderBold: true
+              );
+              Anchor: (Width: 80, Height: 40);
+              Text: "";
+              Padding: (Left: 5);
+            }
+
+            Group {
+              FlexWeight: 1;
+            }
+
+            Group {
+              LayoutMode: Left;
+              Padding: (Left: 0, Right: 0);
+
+              $C.@TextButton #MiningDecrement5 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "-5";
+                Style: @CustomButtonStyle;
+                Visible: false;
+              }
+
+              Group {
+                Anchor: (Width: 5, Height: 35);
+              }
+
+              $C.@TextButton #MiningDecrement1 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "-1";
+                Style: @CustomButtonStyle;
+                Visible: false;
+              }
+
+              Group {
+                Anchor: (Width: 10, Height: 35);
+              }
+
+              $C.@TextButton #MiningIncrement1 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "+1";
+                Style: @CustomButtonStyle;
+              }
+
+              Group {
+                Anchor: (Width: 5, Height: 35);
+              }
+
+              $C.@TextButton #MiningIncrement5 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "+5";
+                Style: @CustomButtonStyle;
+                Visible: false;
+              }
+            }
+          }
+
+          Group #WoodcuttingGroup {
+            Anchor: (Width: 680, Height: 70, Bottom: 3);
+            LayoutMode: Left;
+            Padding: (Full: 8);
+            Background: #1a1a1a(0.5);
+
+            Group #WoodcuttingIconContainer {
+              Anchor: (Width: 48, Height: 48);
+              Padding: (Right: 16);
+              Background: (Color: #2a2a2a(0.8));
+              OutlineColor: #3a3a3a;
+              OutlineSize: 2;
+
+              ItemIcon #WoodcuttingIcon {
+                Anchor: (Left: 4, Top: 4, Width: 40, Height: 40);
+              }
+            }
+
+            Group {
+              LayoutMode: Top;
+              Padding: (Left: 4, Right: 5);
+
+              Label #WoodcuttingAllocation {
+                Style: (
+                  FontSize: 16,
+                  TextColor: #ffffff,
+                  RenderBold: true
+                );
+                Anchor: (Width: 240, Height: 20);
+                Text: "Woodcutting 0";
+                Padding: (Bottom: 2);
+              }
+
+              Label #WoodcuttingDescription {
+                Style: (
+                  FontSize: 12,
+                  TextColor: #aaaaaa,
+                  RenderBold: false
+                );
+                Anchor: (Width: 240);
+                Text: "";
+              }
+            }
+
+            Label #WoodcuttingBonus {
+              Style: (
+                FontSize: 16,
+                TextColor: #90ee90,
+                RenderBold: true
+              );
+              Anchor: (Width: 80, Height: 40);
+              Text: "";
+              Padding: (Left: 5);
+            }
+
+            Group {
+              FlexWeight: 1;
+            }
+
+            Group {
+              LayoutMode: Left;
+              Padding: (Left: 0, Right: 0);
+
+              $C.@TextButton #WoodcuttingDecrement5 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "-5";
+                Style: @CustomButtonStyle;
+                Visible: false;
+              }
+
+              Group {
+                Anchor: (Width: 5, Height: 35);
+              }
+
+              $C.@TextButton #WoodcuttingDecrement1 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "-1";
+                Style: @CustomButtonStyle;
+                Visible: false;
+              }
+
+              Group {
+                Anchor: (Width: 10, Height: 35);
+              }
+
+              $C.@TextButton #WoodcuttingIncrement1 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "+1";
+                Style: @CustomButtonStyle;
+              }
+
+              Group {
+                Anchor: (Width: 5, Height: 35);
+              }
+
+              $C.@TextButton #WoodcuttingIncrement5 {
+                Anchor: (Width: 50, Height: 35);
+                Padding: (Left: 4, Right: 4, Top: 2, Bottom: 2);
+                Text: "+5";
+                Style: @CustomButtonStyle;
+                Visible: false;
+              }
+            }
+          }
+
+        }
+      }
+
+      Label #ErrorLabel {
+        Style: (
+          FontSize: 16,
+          TextColor: #ff0000,
+          RenderBold: true
+        );
+        Anchor: ();
+        Text: "";
+        Padding: (Top: 5);
+      }
+
+      Group {
+        LayoutMode: Left;
+
+        Group {
+          FlexWeight: 1;
+        }
+
+        $C.@TextButton #CancelButton {
+          Anchor: (Width: 100, Height: 40);
+          Text: "Cancel";
+          Padding: (Left: 8, Right: 8, Top: 4, Bottom: 4);
+          Style: @CustomButtonStyle;
+          Visible: false;
+        }
+
+        $C.@TextButton #SaveButton {
+          Anchor: (Left: 10, Width: 100, Height: 40);
+          Text: "Save";
+          Padding: (Left: 8, Right: 8, Top: 4, Bottom: 4);
+          Style: @CustomButtonStyle;
+          Visible: false;
+        }
+      }
+        }
+
+        Group #LeaderboardPage {
+          Visible: false;
+          LayoutMode: Top;
+          Padding: (Left: 20, Right: 20, Top: 10, Bottom: 20);
+
+          Label #LeaderboardTitle {
+            Style: (
+              FontSize: 24,
+              TextColor: #ffffff,
+              RenderBold: true
+            );
+            Anchor: ();
+            Text: "Leaderboard - Top Players";
+            Padding: (Bottom: 15);
+          }
+
+          Group #LeaderboardHeader {
+            LayoutMode: Left;
+            Anchor: (Height: 35);
+            Background: #1a2332(0.8);
+            Padding: (Left: 15, Right: 15, Top: 8, Bottom: 8);
+
+            Label #HeaderRank {
+              Style: (
+                FontSize: 14,
+                TextColor: #ffffff,
+                RenderBold: true
+              );
+              Anchor: (Width: 80);
+              Text: "Rank";
+            }
+
+            Label #HeaderPlayer {
+              Style: (
+                FontSize: 14,
+                TextColor: #ffffff,
+                RenderBold: true
+              );
+              Anchor: (Width: 300);
+              Text: "Player";
+            }
+
+            Label #HeaderLevel {
+              Style: (
+                FontSize: 14,
+                TextColor: #ffffff,
+                RenderBold: true
+              );
+              Anchor: (Width: 120);
+              Text: "Level";
+            }
+
+            Label #HeaderXP {
+              Style: (
+                FontSize: 14,
+                TextColor: #ffffff,
+                RenderBold: true
+              );
+              FlexWeight: 1;
+              Text: "Experience";
+            }
+          }
+
+          Group #LeaderboardList {
+            Anchor: (Height: 500);
+            FlexWeight: 1;
+            LayoutMode: TopScrolling;
+            Padding: (Left: 0, Top: 5, Right: 5, Bottom: 0);
+            ScrollbarStyle: $C.@DefaultScrollbarStyle;
+
+            Group #LeaderboardEntries {
+              LayoutMode: Top;
+            }
+          }
+
+          Label #EmptyMessage {
+            Style: (
+              FontSize: 16,
+              TextColor: #aaaaaa,
+              RenderBold: false
+            );
+            Anchor: ();
+            Text: "No players found. Play to appear on the leaderboard!";
+            Padding: (Top: 50);
+            Visible: false;
+          }
+        }
+      }
+    }
+  }
+}

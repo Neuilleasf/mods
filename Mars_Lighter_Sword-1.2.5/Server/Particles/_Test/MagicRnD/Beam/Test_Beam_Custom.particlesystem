@@ -1,0 +1,56 @@
+{
+  "Spawners": [
+    {
+      "StartDelay": 0.5,
+      "PositionOffset": {
+        "X": -3.0,
+        "Z": 0.15
+      },
+      "SpawnerId": "Test_Beam2_Custom"
+    },
+    {
+      "StartDelay": 0.5,
+      "PositionOffset": {
+        "X": -3.0
+      },
+      "SpawnerId": "Test_Beam_Lightning_Custom"
+    },
+    {
+      "StartDelay": 0.5,
+      "SpawnerId": "Test_BeamSpawner_Custom"
+    },
+    {
+      "StartDelay": 0.5,
+      "SpawnerId": "Test_Beam_Exposion_Custom",
+      "PositionOffset": {
+        "Z": 0.2
+      }
+    },
+    {
+      "PositionOffset": {
+        "X": 1.8,
+        "Z": -0.1
+      },
+      "SpawnerId": "Test_Beam_Static_Custom"
+    },
+    {
+      "PositionOffset": {
+        "X": 1.8,
+        "Y": 0,
+        "Z": 0.1
+      },
+      "SpawnerId": "Test_Beam_Static2_Custom"
+    },
+    {
+      "SpawnerId": "Test_Beam_Core_Custom",
+      "PositionOffset": {
+        "X": 1.8
+      }
+    },
+    {
+      "SpawnerId": "Beam_Lightning2"
+    }
+  ],
+  "IsImportant": false,
+  "CullDistance": 30.0
+}

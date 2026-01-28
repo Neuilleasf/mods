@@ -1,0 +1,37 @@
+{
+  "Type": "Simple",
+  "RunTime": 0.433,
+  "Effects": {
+    "ItemAnimationId": "SwingDownStrong",
+    "WorldSoundEventId": "SFX_Battleaxe_T2_Swing",
+    "LocalSoundEventId": "SFX_Battleaxe_T2_Swing_Down_Local",
+    "Particles": [
+      {
+        "SystemId": "Flamethrower",
+        "TargetEntityPart": "PrimaryItem",
+        "PositionOffset": {
+          "X": 1.25,
+          "Y": 0.1,
+          "Z": 0
+        },
+        "RotationOffset": {
+          "Pitch": 0,
+          "Roll": 0,
+          "Yaw": -90
+        },
+        "TargetNodeName": "Handle",
+        "Scale": 0.5
+      }
+    ]
+  },
+  "Next": {
+    "Type": "Replace",
+    "Var": "Swing_Down_Selector",
+    "DefaultOk": true,
+    "DefaultValue": {
+      "Interactions": [
+        "Weapon_Lighter_Sword_Primary_Swing_Down_Selector"
+      ]
+    }
+  }
+}

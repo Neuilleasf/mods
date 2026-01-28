@@ -1,0 +1,20 @@
+{
+  "Group": "Mods",
+  "Name": "PersistentSignature",
+  "Version": "1.0.0",
+  "Description": "Quality of Life mod that preserves signature energy when switching weapons. No more losing your charged signature!",
+  "Authors": [
+    {
+      "Name": "nakai",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true,
+  "SubPlugins": []
+}

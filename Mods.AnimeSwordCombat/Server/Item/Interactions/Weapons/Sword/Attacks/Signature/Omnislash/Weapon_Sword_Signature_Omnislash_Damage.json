@@ -1,0 +1,26 @@
+{
+  "Parent": "DamageEntityParent",
+  "DamageCalculator": {
+    "BaseDamage": {
+      "Physical": 18
+    }
+  },
+  "Effects": {
+    "CameraEffect": "Impact"
+  },
+  "DamageEffects": {
+    "Knockback": {
+      "Type": "Point",
+      "Force": 6,
+      "VelocityY": 5
+    },
+    "WorldSoundEventId": "SFX_Sword_T2_Signature_Part_1",
+    "LocalSoundEventId": "SFX_Sword_T2_Signature_Part_1_Local",
+    "WorldParticles": [
+      {
+        "SystemId": "Impact_Sword_Signature"
+      }
+    ],
+    "CameraEffect": "Impact_Light"
+  }
+}

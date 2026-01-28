@@ -1,0 +1,19 @@
+{
+  "Group": "Nakai",
+  "Name": "BetterSwords",
+  "Version": "1.0.0",
+  "Description": "Better Swords - Trails, particles, and improved sword combat!",
+  "Authors": [
+    {
+      "Name": "Nakai",
+      "Url": ""
+    }
+  ],
+  "ServerVersion": "*",
+  "Dependencies": {
+    "Hytale:EntityModule": "*"
+  },
+  "OptionalDependencies": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true
+}

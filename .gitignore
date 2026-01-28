@@ -1,0 +1,18 @@
+# Large files
+*.jar
+62b8c3be-a10c-4cd9-9f29-2476f20d1ff3.json
+
+# Build outputs
+bin/
+build/
+*.class
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.venv/

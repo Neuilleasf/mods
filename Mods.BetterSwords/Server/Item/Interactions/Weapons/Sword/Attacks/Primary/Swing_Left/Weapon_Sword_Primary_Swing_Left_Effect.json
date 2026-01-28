@@ -1,0 +1,30 @@
+{
+  "Type": "Simple",
+  "RunTime": 0.2,
+  "Effects": {
+    "Trails": [
+      {
+        "PositionOffset": {
+          "X": 0.8,
+          "Y": 0,
+          "Z": 0
+        },
+        "RotationOffset": {
+          "Pitch": 0,
+          "Roll": 90,
+          "Yaw": 0
+        },
+        "TargetNodeName": "Handle",
+        "TrailId": "Medium_Charged"
+      }
+    ],
+    "Particles": [
+      {
+        "SystemId": "Sword_Charged_Trail",
+        "Scale": 1,
+        "TargetNodeName": "Handle",
+        "TargetEntityPart": "Entity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "RenderMode": "Erosion",
+  "EmitOffset": {
+    "X": {
+      "Min": -0.2,
+      "Max": 0.2
+    },
+    "Y": {
+      "Min": 0,
+      "Max": 0.5
+    },
+    "Z": {
+      "Min": -0.2,
+      "Max": 0.2
+    }
+  },
+  "ParticleRotationInfluence": "None",
+  "LinearFiltering": true,
+  "LightInfluence": 0,
+  "ParticleRotateWithSpawner": true,
+  "TrailSpawnerPositionMultiplier": 0,
+  "TrailSpawnerRotationMultiplier": 0,
+  "MaxConcurrentParticles": 15,
+  "ParticleLifeSpan": {
+    "Min": 0.1,
+    "Max": 0.2
+  },
+  "SpawnRate": {
+    "Min": 200.0,
+    "Max": 400.0
+  },
+  "Particle": {
+    "Texture": "Particles/Textures/Basic/Spark.png",
+    "FrameSize": {},
+    "ScaleRatioConstraint": "OneToOne",
+    "SoftParticles": "Disable",
+    "UVOption": "RandomFlipU",
+    "Animation": {
+      "0": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 0
+        },
+        "Rotation": {
+          "X": {
+            "Min": 0,
+            "Max": 360
+          },
+          "Y": {
+            "Min": 0,
+            "Max": 360
+          },
+          "Z": {
+            "Min": 0,
+            "Max": 360
+          }
+        },
+        "Scale": {
+          "X": {
+            "Min": 0.5,
+            "Max": 1.0
+          }
+        },
+        "Opacity": 1,
+        "Color": "#000000"
+      },
+      "50": {
+        "Opacity": 0.5
+      },
+      "100": {
+        "Opacity": 0,
+        "Color": "#1a1a1a",
+        "Scale": {
+          "X": {
+            "Min": 0.1,
+            "Max": 0.2
+          }
+        }
+      }
+    },
+    "InitialAnimationFrame": {
+      "Scale": {
+        "X": {
+          "Min": 0.3,
+          "Max": 0.6
+        }
+      },
+      "FrameIndex": {
+        "Min": 0,
+        "Max": 0
+      },
+      "Opacity": 1
+    }
+  },
+  "IntersectionHighlight": {
+    "HighlightThreshold": 1,
+    "HighlightColor": "#333333"
+  },
+  "IsLowRes": true,
+  "SpawnBurst": true
+}

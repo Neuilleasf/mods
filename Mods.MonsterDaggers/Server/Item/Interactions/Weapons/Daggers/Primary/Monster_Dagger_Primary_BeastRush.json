@@ -1,0 +1,17 @@
+{
+  "Type": "Serial",
+  "Interactions": [
+    {
+      "Type": "ApplyEffect",
+      "EffectId": "Dagger_Pounce"
+    },
+    {
+      "Type": "ChangeStat",
+      "StatModifiers": {
+        "Stamina": -6
+      }
+    },
+    "Monster_Dagger_Primary_BeastRush_Force",
+    "Monster_Dagger_Primary_BeastRush_Selector"
+  ]
+}

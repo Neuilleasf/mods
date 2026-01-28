@@ -1,0 +1,40 @@
+{
+  "Type": "Simple",
+  "RunTime": 0.12,
+  "Effects": {
+    "Trails": [
+      {
+        "PositionOffset": {
+          "X": 0.8,
+          "Y": 0,
+          "Z": 0
+        },
+        "RotationOffset": {
+          "Pitch": 0,
+          "Roll": 90,
+          "Yaw": 0
+        },
+        "TargetNodeName": "Handle",
+        "TrailId": "Critical"
+      }
+    ],
+    "WorldSoundEventId": "SFX_Sword_T2_Impact",
+    "LocalSoundEventId": "SFX_Sword_T2_Impact",
+    "Particles": [
+      {
+        "SystemId": "Daggers_Signature_Slash",
+        "TargetEntityPart": "Entity",
+        "TargetNodeName": "Hip",
+        "PositionOffset": {
+          "Y": 0.5
+        }
+      },
+      {
+        "SystemId": "Impact_Feathers_Black",
+        "TargetNodeName": "Handle",
+        "Scale": 0.6
+      }
+    ],
+    "CameraEffect": "Sword_Spin"
+  }
+}

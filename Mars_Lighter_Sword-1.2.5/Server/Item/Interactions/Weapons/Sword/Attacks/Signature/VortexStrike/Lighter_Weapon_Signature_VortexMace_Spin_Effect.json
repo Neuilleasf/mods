@@ -1,0 +1,53 @@
+{
+  "Type": "Simple",
+  "$Comment": "Length of Effect",
+  "RunTime": 0.583,
+  "Effects": {
+    "Trails": [
+      {
+        "PositionOffset": {
+          "X": 0.8,
+          "Y": 0,
+          "Z": 0
+        },
+        "RotationOffset": {
+          "Pitch": 0,
+          "Roll": 90,
+          "Yaw": 0
+        },
+        "TargetNodeName": "Handle",
+        "TrailId": "Medium_Signature"
+      }
+    ],
+    "WorldSoundEventId": "SFX_Sword_T2_Signature_Part_1",
+    "WaitForAnimationToFinish": false,
+    "Particles": [
+      {
+        "SystemId": "Sword_Signature_AoE",
+        "Scale": 2,
+        "TargetNodeName": "Hip",
+        "TargetEntityPart": "Entity",
+        "PositionOffset": {
+          "Y": 1.0
+        }
+      },
+      {
+        "SystemId": "BlueFlameThrower",
+        "TargetEntityPart": "PrimaryItem",
+        "PositionOffset": {
+          "X": 2,
+          "Y": 0,
+          "Z": 0
+        },
+        "RotationOffset": {
+          "Pitch": 0,
+          "Roll": 0,
+          "Yaw": -90
+        },
+        "TargetNodeName": "Handle"
+      }
+    ],
+    "CameraEffect": "Sword_Spin",
+    "LocalSoundEventId": "SFX_Sword_T2_Signature_Part_1_Local"
+  }
+}

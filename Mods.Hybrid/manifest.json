@@ -1,0 +1,22 @@
+{
+    "Group": "Serilum",
+    "Name": "Hybrid",
+    "Version": "1.7",
+    "Description": "Hybrid is a mod library that contains common code for all of Serilum's mods.",
+    "Authors": [
+        {
+            "Name": "Serilum"
+        }
+    ],
+    "Website": "https://serilum.com/",
+    "ServerVersion": "*",
+    "Dependencies": {
+        "Hytale:EntityModule": "*"
+    },
+    "OptionalDependencies": {
+        
+    },
+    "DisabledByDefault": false,
+    "Main": "com.natamus.hybrid.HybridMain",
+    "IncludesAssetPack": true
+}

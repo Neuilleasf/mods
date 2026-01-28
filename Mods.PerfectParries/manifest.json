@@ -1,0 +1,22 @@
+{
+    "Group": "narwhals",
+    "Name": "Perfect Parries",
+    "Version": "0.5.1",
+    "Description": "An parry plugin for HyTale",
+    "Authors": [
+        {
+            "Name": "narwhals"
+        }
+    ],
+    "Website": "",
+    "ServerVersion": "*",
+    "Dependencies": {
+        
+    },
+    "OptionalDependencies": {
+        
+    },
+    "DisabledByDefault": false,
+    "Main": "org.narwhals.plugin.PerfectParries",
+    "IncludesAssetPack": true
+}

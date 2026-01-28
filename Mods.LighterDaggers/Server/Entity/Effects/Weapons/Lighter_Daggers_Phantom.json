@@ -1,0 +1,19 @@
+{
+  "ApplicationEffects": {
+    "EntityBottomTint": "#1a0033",
+    "EntityTopTint": "#6600cc",
+    "Particles": [
+      {
+        "SystemId": "Dagger_Signature",
+        "TargetNodeName": "Hip",
+        "PositionOffset": {
+          "Y": 0.5
+        }
+      }
+    ]
+  },
+  "OverlapBehavior": "Overwrite",
+  "Infinite": false,
+  "Debuff": false,
+  "Duration": 2
+}

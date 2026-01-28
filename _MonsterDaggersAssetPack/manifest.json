@@ -1,0 +1,16 @@
+{
+  "Group": "Mods",
+  "Name": "MonsterDaggers",
+  "Version": "1.0.0",
+  "Description": "MonsterDaggers Asset Pack",
+  "Authors": [
+    { "Name": "Kiwi", "Email": "", "Url": "" }
+  ],
+  "Website": "",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}

@@ -1,0 +1,12 @@
+eyespy.lines.2=\n
+eyespy.tier=Nivå: {tier}
+eyespy.level=Nivå: {level}
+eyespy.capacity=Kapasitet: {capacity}
+eyespy.size=Størrelse: {size}
+eyespy.progress=Fremdrift: {progress}%
+eyespy.state=Trinn: {current}/{max}
+eyespy.timer=Tidsur: {time}
+eyespy.cooldown=Nedtelling: {time}
+eyespy.enabled=Aktivert
+eyespy.disabled=Deaktivert
+eyespy.powered=Strømtilført

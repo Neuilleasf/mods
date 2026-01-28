@@ -1,0 +1,12 @@
+eyespy.lines.2=\n
+eyespy.tier=Niveau: {tier}
+eyespy.level=Niveau: {level}
+eyespy.capacity=Capaciteit: {capacity}
+eyespy.size=Grootte: {size}
+eyespy.progress=Voortgang: {progress}%
+eyespy.state=Fase: {current}/{max}
+eyespy.timer=Timer: {time}
+eyespy.cooldown=Afkoeltijd: {time}
+eyespy.enabled=Ingeschakeld
+eyespy.disabled=Uitgeschakeld
+eyespy.powered=Actief

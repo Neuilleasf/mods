@@ -1,0 +1,33 @@
+{
+  "Type": "StatsCondition",
+  "Costs": {
+    "SignatureEnergy": 100
+  },
+  "ValueType": "Percent",
+  "Next": {
+    "Type": "Serial",
+    "Interactions": [
+      {
+        "Type": "ChangeStat",
+        "StatModifiers": {
+          "SignatureEnergy": -100
+        },
+        "ValueType": "Percent"
+      },
+      {
+        "Type": "Simple",
+        "RunTime": 0.1,
+        "Effects": {
+          "WorldSoundEventId": "SFX_Bow_T2_Signature_Nock",
+          "LocalSoundEventId": "SFX_Bow_T2_Signature_Nock_Local"
+        }
+      },
+      "BetterBow_Rapid_Volley_Shot",
+      "BetterBow_Rapid_Volley_Shot",
+      "BetterBow_Rapid_Volley_Shot",
+      "BetterBow_Rapid_Volley_Shot",
+      "BetterBow_Rapid_Volley_Shot",
+      "BetterBow_Rapid_Volley_Shot_Final"
+    ]
+  }
+}

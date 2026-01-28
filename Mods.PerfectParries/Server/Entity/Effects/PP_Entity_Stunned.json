@@ -1,0 +1,16 @@
+{
+  "Duration": 0.5,
+  "ApplicationEffects": {
+    "HorizontalSpeedMultiplier": 0,
+    "MovementEffects": {
+      "DisableAll": true
+    },
+    "Particles": [
+      {
+        "SystemId": "PP_Stunned",
+        "TargetEntityPart": "Entity",
+        "TargetNodeName": "Head"
+      }
+    ]
+  }
+}

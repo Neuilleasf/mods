@@ -1,0 +1,162 @@
+$Common = "../Common.ui";
+
+Group {
+    Anchor: (Width: 400, Height: 520);
+    Background: #000b24(0.85);
+    LayoutMode: Top;
+    Padding: (Full: 20);
+
+    Label #TitleLabel {
+        Text: "Perfect Parries";
+        Anchor: (Height: 35);
+        Style: (FontSize: 26, TextColor: #e3fffc, HorizontalAlignment: Center, RenderBold: true);
+    }
+
+    Label #InfoLabel {
+        Text: "v0.5.1";
+        Anchor: (Height: 20);
+        Style: (FontSize: 12, TextColor: #3b507e, HorizontalAlignment: Center);
+    }
+
+    Group { Anchor: (Height: 1); Background: #2d3b59; }
+    Group { Anchor: (Height: 12); }
+
+    Group #ScrollContainer {
+        FlexWeight: 1;
+        LayoutMode: TopScrolling;
+        ScrollbarStyle: $Common.@DefaultScrollbarStyle;
+
+        Label {
+            Text: "PARRY";
+            Anchor: (Height: 25);
+            Style: (FontSize: 11, TextColor: #3a7bd5, RenderUppercase: true, LetterSpacing: 2, RenderBold: true);
+        }
+        Group { Anchor: (Height: 6); }
+
+        Group {
+            LayoutMode: Left;
+            Anchor: (Height: 24);
+            Label { Anchor: (Width: 200); Text: "Parry Window"; Style: (FontSize: 13, TextColor: #96a9be); }
+            Label #ParryWindowValue { FlexWeight: 1; Style: (FontSize: 13, TextColor: #add8e6); }
+        }
+        Group {
+            LayoutMode: Left;
+            Anchor: (Height: 24);
+            Label { Anchor: (Width: 200); Text: "Stamina Drain Multiplier"; Style: (FontSize: 13, TextColor: #96a9be); }
+            Label #StaminaDrainValue { FlexWeight: 1; Style: (FontSize: 13, TextColor: #add8e6); }
+        }
+        Group {
+            LayoutMode: Left;
+            Anchor: (Height: 24);
+            Label { Anchor: (Width: 200); Text: "Reflect Damage"; Style: (FontSize: 13, TextColor: #96a9be); }
+            Label #ReflectDamageValue { FlexWeight: 1; Style: (FontSize: 13, TextColor: #add8e6); }
+        }
+        Group {
+            LayoutMode: Left;
+            Anchor: (Height: 24);
+            Label { Anchor: (Width: 200); Text: "Knockback (X / Y)"; Style: (FontSize: 13, TextColor: #96a9be); }
+            Label #KnockbackValue { FlexWeight: 1; Style: (FontSize: 13, TextColor: #add8e6); }
+        }
+        Group {
+            LayoutMode: Left;
+            Anchor: (Height: 24);
+            Label { Anchor: (Width: 200); Text: "Parries to Full Sig. Energy"; Style: (FontSize: 13, TextColor: #96a9be); }
+            Label #SignatureEnergyValue { FlexWeight: 1; Style: (FontSize: 13, TextColor: #add8e6); }
+        }
+
+        Group { Anchor: (Height: 16); }
+
+        Label {
+            Text: "COUNTERATTACK";
+            Anchor: (Height: 25);
+            Style: (FontSize: 11, TextColor: #3a7bd5, RenderUppercase: true, LetterSpacing: 2, RenderBold: true);
+        }
+        Group { Anchor: (Height: 6); }
+
+        Group {
+            LayoutMode: Left;
+            Anchor: (Height: 24);
+            Label { Anchor: (Width: 200); Text: "Counterattack Window"; Style: (FontSize: 13, TextColor: #96a9be); }
+            Label #CounterattackWindowValue { FlexWeight: 1; Style: (FontSize: 13, TextColor: #add8e6); }
+        }
+        Group {
+            LayoutMode: Left;
+            Anchor: (Height: 24);
+            Label { Anchor: (Width: 200); Text: "Counterattack Damage"; Style: (FontSize: 13, TextColor: #96a9be); }
+            Label #CounterattackDamageValue { FlexWeight: 1; Style: (FontSize: 13, TextColor: #add8e6); }
+        }
+
+        Group { Anchor: (Height: 16); }
+
+        Label {
+            Text: "STAGGER & STUN";
+            Anchor: (Height: 25);
+            Style: (FontSize: 11, TextColor: #3a7bd5, RenderUppercase: true, LetterSpacing: 2, RenderBold: true);
+        }
+        Group { Anchor: (Height: 6); }
+
+        Group {
+            LayoutMode: Left;
+            Anchor: (Height: 24);
+            Label { Anchor: (Width: 200); Text: "Entity Stamina System"; Style: (FontSize: 13, TextColor: #96a9be); }
+            Label #EnableEntityStaminaValue { FlexWeight: 1; Style: (FontSize: 13, TextColor: #add8e6); }
+        }
+        Group {
+            LayoutMode: Left;
+            Anchor: (Height: 24);
+            Label { Anchor: (Width: 200); Text: "Stagger Duration"; Style: (FontSize: 13, TextColor: #96a9be); }
+            Label #StaggerDurationValue { FlexWeight: 1; Style: (FontSize: 13, TextColor: #add8e6); }
+        }
+        Group {
+            LayoutMode: Left;
+            Anchor: (Height: 24);
+            Label { Anchor: (Width: 200); Text: "Stun Duration"; Style: (FontSize: 13, TextColor: #96a9be); }
+            Label #StunDurationValue { FlexWeight: 1; Style: (FontSize: 13, TextColor: #add8e6); }
+        }
+        Group {
+            LayoutMode: Left;
+            Anchor: (Height: 24);
+            Label { Anchor: (Width: 200); Text: "Stunned/Critical Damage"; Style: (FontSize: 13, TextColor: #96a9be); }
+            Label #StunnedDamageMultiplierValue { FlexWeight: 1; Style: (FontSize: 13, TextColor: #add8e6); }
+        }
+
+        Group { Anchor: (Height: 16); }
+
+        Label {
+            Text: "PVP";
+            Anchor: (Height: 25);
+            Style: (FontSize: 11, TextColor: #3a7bd5, RenderUppercase: true, LetterSpacing: 2, RenderBold: true);
+        }
+        Group { Anchor: (Height: 6); }
+
+        Group {
+            LayoutMode: Left;
+            Anchor: (Height: 24);
+            Label { Anchor: (Width: 200); Text: "PvP Parry System"; Style: (FontSize: 13, TextColor: #96a9be); }
+            Label #PvPEnabledValue { FlexWeight: 1; Style: (FontSize: 13, TextColor: #add8e6); }
+        }
+        Group {
+            LayoutMode: Left;
+            Anchor: (Height: 24);
+            Label { Anchor: (Width: 200); Text: "Parried Stamina Damage"; Style: (FontSize: 13, TextColor: #96a9be); }
+            Label #PvPStaminaDamageValue { FlexWeight: 1; Style: (FontSize: 13, TextColor: #add8e6); }
+        }
+        Group {
+            LayoutMode: Left;
+            Anchor: (Height: 24);
+            Label { Anchor: (Width: 200); Text: "Stamina Regen Cooldown"; Style: (FontSize: 13, TextColor: #96a9be); }
+            Label #PvPRegenCooldownValue { FlexWeight: 1; Style: (FontSize: 13, TextColor: #add8e6); }
+        }
+
+        Group { Anchor: (Height: 20); }
+    }
+
+    Group { Anchor: (Height: 12); }
+    Group { Anchor: (Height: 1); Background: #2d3b59; }
+    Group { Anchor: (Height: 10); }
+    Label {
+        Text: "by narwhals";
+        Anchor: (Height: 16);
+        Style: (FontSize: 11, TextColor: #3b507e, HorizontalAlignment: Center);
+    }
+}

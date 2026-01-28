@@ -1,0 +1,84 @@
+{
+  "Type": "StatsCondition",
+  "Costs": {
+    "SignatureEnergy": 100
+  },
+  "ValueType": "Percent",
+  "Next": {
+    "Type": "Serial",
+    "Interactions": [
+      {
+        "Type": "Replace",
+        "Var": "Shadowstep_EntityEffect",
+        "DefaultOk": true,
+        "DefaultValue": {
+          "Interactions": [
+            {
+              "Type": "ApplyEffect",
+              "EffectId": "ShadowStep_Invisible"
+            }
+          ]
+        }
+      },
+      {
+        "Type": "Replace",
+        "Var": "Shadowstep_Strike1",
+        "DefaultOk": true,
+        "DefaultValue": {
+          "Interactions": [
+            "Monster_Dagger_Shadowstep_Strike1"
+          ]
+        }
+      },
+      {
+        "Type": "Simple",
+        "RunTime": 0.05
+      },
+      {
+        "Type": "Replace",
+        "Var": "Shadowstep_Strike2",
+        "DefaultOk": true,
+        "DefaultValue": {
+          "Interactions": [
+            "Monster_Dagger_Shadowstep_Strike2"
+          ]
+        }
+      },
+      {
+        "Type": "Simple",
+        "RunTime": 0.05
+      },
+      {
+        "Type": "Replace",
+        "Var": "Shadowstep_Strike3",
+        "DefaultOk": true,
+        "DefaultValue": {
+          "Interactions": [
+            "Monster_Dagger_Shadowstep_Strike3"
+          ]
+        }
+      },
+      {
+        "Type": "Simple",
+        "RunTime": 0.05
+      },
+      {
+        "Type": "Replace",
+        "Var": "Shadowstep_Strike4",
+        "DefaultOk": true,
+        "DefaultValue": {
+          "Interactions": [
+            "Monster_Dagger_Shadowstep_Strike4"
+          ]
+        }
+      },
+      {
+        "Type": "ChangeStat",
+        "ValueType": "Percent",
+        "StatModifiers": {
+          "SignatureEnergy": -100
+        }
+      }
+    ]
+  }
+}

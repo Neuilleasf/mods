@@ -1,0 +1,8 @@
+{
+  "ApplicationEffects": {
+    "ModelVFXId": "Omnislash_Signature_Status"
+  },
+  "OverlapBehavior": "Overwrite",
+  "Infinite": false,
+  "Duration": 2.0
+}

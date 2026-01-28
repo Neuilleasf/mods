@@ -1,0 +1,20 @@
+{
+  "Group": "Nakai",
+  "Name": "AnimeSwordCombat",
+  "Version": "2.0.0",
+  "Description": "🔥 ANIME SWORD COMBAT - Omnislash avec Lock-on, particules rouge/noir, Flash Step dash!",
+  "Authors": [
+    {
+      "Name": "Nakai",
+      "Url": ""
+    }
+  ],
+  "ServerVersion": "*",
+  "Dependencies": {
+    "Hytale:EntityModule": "*"
+  },
+  "OptionalDependencies": {},
+  "DisabledByDefault": false,
+  "Main": "com.nakai.animesword.AnimeSwordPlugin",
+  "IncludesAssetPack": true
+}

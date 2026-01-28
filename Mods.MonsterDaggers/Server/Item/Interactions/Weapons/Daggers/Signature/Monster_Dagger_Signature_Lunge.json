@@ -1,0 +1,63 @@
+{
+  "Type": "Simple",
+  "RunTime": 0.15,
+  "Effects": {
+    "ItemAnimationId": "RazorstrikeLunge",
+    "Particles": [
+      {
+        "SystemId": "Daggers_Signature_Dash",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Handle",
+        "Scale": 1.0
+      },
+      {
+        "SystemId": "Daggers_Signature_Dash",
+        "TargetEntityPart": "SecondaryItem",
+        "TargetNodeName": "Handle",
+        "Scale": 1.0
+      },
+      {
+        "SystemId": "Daggers_Lunge_Trail",
+        "TargetEntityPart": "Entity",
+        "PositionOffset": { "Y": 0.5, "Z": 0.5 },
+        "TargetNodeName": "Hip",
+        "RotationOffset": { "Yaw": -90.0 }
+      }
+    ],
+    "WorldSoundEventId": "SFX_Daggers_T2_Signature_P3",
+    "LocalSoundEventId": "SFX_Daggers_T2_Signature_P3_Local"
+  },
+  "Next": {
+    "Type": "Parallel",
+    "Interactions": [
+      {
+        "Interactions": [
+          {
+            "Type": "Replace",
+            "Var": "Razorstrike_Lunge_Selector",
+            "DefaultOk": true,
+            "DefaultValue": {
+              "Interactions": [
+                "Weapon_Daggers_Signature_Razorstrike_Lunge_Selector"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "Interactions": [
+          {
+            "Type": "Replace",
+            "Var": "Razorstrike_Lunge_Force",
+            "DefaultOk": true,
+            "DefaultValue": {
+              "Interactions": [
+                "Monster_Dagger_Signature_Lunge_Force"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

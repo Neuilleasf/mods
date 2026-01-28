@@ -1,0 +1,132 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "PP_Block_Land_Hard_Crystal_Glow",
+      "PositionOffset": {
+        "X": 0,
+        "Y": 0.05,
+        "Z": 0
+      }
+    },
+    {
+      "SpawnerId": "PP_Block_Land_Crystal_Soft"
+    },
+    {
+      "SpawnerId": "PP_Impact_Daggers_Bash_Star"
+    },
+    {
+      "SpawnerId": "PP_Block_Break_Metal_Sparks",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    {
+      "SpawnerId": "PP_Block_Break_Metal_Flash"
+    },
+    {
+    "SpawnerId": "PP_Impact_Daggers_Signature_Glow",
+    "PositionOffset": {
+      "X": 0.3,
+      "Y": -0.05
+    }
+  },
+  {
+    "SpawnerId": "PP_Impact_Daggers_Signature_Sparks",
+    "FixedRotation": false
+  },
+  {
+    "SpawnerId": "PP_Impact_Daggers_Signature_Sparks2",
+    "FixedRotation": false,
+    "PositionOffset": {
+      "X": 0.3,
+      "Y": -0.05
+    },
+    "StartDelay": 0.02
+  },
+  {
+    "SpawnerId": "PP_Impact_Daggers_Signature_Linger",
+    "PositionOffset": {
+      "Z": -0.5,
+      "Y": -100.0
+    }
+  },
+  {
+    "SpawnerId": "PP_Impact_Daggers_Signature_Slash",
+    "PositionOffset": {
+      "X": 0.3
+    }
+  },
+  {
+    "SpawnerId": "PP_Impact_Daggers_Signature_Flash",
+    "FixedRotation": false,
+    "PositionOffset": {
+      "X": 0.3
+    }
+  },
+  {
+    "SpawnerId": "PP_Impact_Daggers_Signature_Glow",
+    "PositionOffset": {
+      "X": 0.3,
+      "Y": -0.05
+    }
+  },
+  {
+    "SpawnerId": "PP_Impact_Daggers_Signature_Sparks",
+    "FixedRotation": false
+  },
+  {
+    "SpawnerId": "PP_Impact_Daggers_Signature_Sparks2",
+    "FixedRotation": false,
+    "PositionOffset": {
+      "X": 0.3,
+      "Y": -0.05
+    },
+    "StartDelay": 0.02
+  },
+  {
+    "SpawnerId": "PP_Impact_Daggers_Signature_Linger",
+    "PositionOffset": {
+      "Z": -0.5,
+      "Y": -100.0
+    }
+  },
+  {
+    "SpawnerId": "PP_Impact_Daggers_Signature_Slash",
+    "PositionOffset": {
+      "X": 0.3
+    }
+  },
+  {
+    "SpawnerId": "PP_Impact_Daggers_Signature_Flash",
+    "FixedRotation": false,
+    "PositionOffset": {
+      "X": 0.3
+    }
+  },
+    {
+      "SpawnerId": "Counter_Shotgun_Flash"
+    },
+    {
+      "SpawnerId": "Counter_Shotgun_Sparks",
+      "StartDelay": 0.01,
+      "PositionOffset": {
+        "X": -0.2
+      }
+    },
+    {
+      "SpawnerId": "Counter_Shotgun_Flash3",
+      "PositionOffset": {
+        "X": -0.4
+      }
+    },
+    {
+      "SpawnerId": "Counter_Shotgun_Flash2"
+    },
+    {
+      "SpawnerId": "Counter_Shotgun_Sparks2"
+    }
+  ]
+}

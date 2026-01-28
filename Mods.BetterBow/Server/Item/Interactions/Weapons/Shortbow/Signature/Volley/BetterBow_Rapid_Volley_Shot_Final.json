@@ -1,0 +1,11 @@
+{
+  "Type": "Projectile",
+  "RunTime": 0.15,
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "ClearAnimationOnFinish": true,
+    "WorldSoundEventId": "SFX_Bow_T2_Shoot",
+    "LocalSoundEventId": "SFX_Bow_T2_Shoot_Local"
+  },
+  "Config": "BetterBow_Rapid_Arrow_Final_Config"
+}

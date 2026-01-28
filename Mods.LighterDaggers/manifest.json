@@ -1,0 +1,20 @@
+{
+  "Group": "Mods",
+  "Name": "LighterDaggers",
+  "Version": "1.0.0",
+  "Description": "Dagues légendaires avec style phantom/assassin. Primary: Phantom Pounce avec 3 dashs consécutifs. Signature: Shadowstep Assault avec invisibilité et multi-frappes.",
+  "Authors": [
+    {
+      "Name": "nakai",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true,
+  "SubPlugins": []
+}

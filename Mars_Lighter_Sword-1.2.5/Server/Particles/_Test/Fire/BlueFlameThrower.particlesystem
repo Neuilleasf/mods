@@ -1,0 +1,79 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "FlameThrower_CoreBlue",
+      "PositionOffset": {
+        "Z": -1.4
+      }
+    },
+    {
+      "SpawnerId": "Flamethrower_CoreThinBlue",
+      "PositionOffset": {
+        "Z": 0.5
+      }
+    },
+    {
+      "SpawnerId": "Flamethrower_EndBlue",
+      "PositionOffset": {
+        "Z": -2.0
+      }
+    },
+    {
+      "SpawnerId": "Flamethrower_Beam_FlatBlue",
+      "PositionOffset": {
+        "Z": -0.3
+      }
+    },
+    {
+      "SpawnerId": "Flamethrower_Overlay_FlatBlue",
+      "PositionOffset": {
+        "Z": -0.3
+      }
+    },
+    {
+      "SpawnerId": "FlameThrower_BeamBlue",
+      "PositionOffset": {
+        "Z": -0.3,
+        "Y": -100.0
+      }
+    },
+    {
+      "SpawnerId": "Flamethrower_Beam_OverlayBlue",
+      "PositionOffset": {
+        "Z": -0.3,
+        "Y": -100.0
+      }
+    },
+    {
+      "SpawnerId": "Flamethrower_SparksBlue",
+      "FixedRotation": false
+    },
+    {
+      "SpawnerId": "Flamethrower_Sparks_EndBlue",
+      "FixedRotation": false,
+      "PositionOffset": {
+        "Z": -2.0
+      }
+    },
+    {
+      "SpawnerId": "Flamethrower_StartBlue",
+      "PositionOffset": {
+        "Z": 1.8
+      }
+    },
+    {
+      "SpawnerId": "Flamethrower_Start2Blue",
+      "PositionOffset": {
+        "Z": 2.0
+      }
+    },
+    {
+      "SpawnerId": "Flamethrower_Glow_StartBlue",
+      "PositionOffset": {
+        "Z": 2.0
+      }
+    }
+  ],
+  "CullDistance": 100.0,
+  "IsImportant": false
+}

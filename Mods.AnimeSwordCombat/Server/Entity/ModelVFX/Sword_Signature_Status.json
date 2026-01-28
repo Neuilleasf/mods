@@ -1,0 +1,21 @@
+{
+  "SwitchTo": "PostColor",
+  "EffectDirection": "BottomUp",
+  "AnimationDuration": 0.8,
+  "AnimationRange": {
+    "X": 0.19,
+    "Y": 0.4
+  },
+  "HighlightColor": "#ff2222",
+  "HighlightThickness": 6.0,
+  "UseBloomOnHighlight": true,
+  "NoiseScale": {
+    "X": 1.0,
+    "Y": 100.0
+  },
+  "PostColor": "#220808",
+  "UseProgessiveHighlight": false,
+  "LoopOption": "Loop",
+  "PostColorOpacity": 0.4,
+  "CurveType": "QuartOut"
+}

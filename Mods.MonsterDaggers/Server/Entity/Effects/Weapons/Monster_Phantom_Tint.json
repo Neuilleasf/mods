@@ -1,0 +1,17 @@
+{
+  "Duration": 2.0,
+  "ApplicationEffects": {
+    "Particles": [
+      {
+        "SystemId": "Daggers_Dash_Status",
+        "TargetEntityPart": "Entity",
+        "TargetNodeName": "Hip",
+        "PositionOffset": { "Y": 1.0 },
+        "Color": "#6600cc"
+      }
+    ],
+    "ModelVFXId": "ShadowStep_Invisible"
+  },
+  "OverlapBehavior": "Extend",
+  "Invulnerable": false
+}

@@ -1,0 +1,19 @@
+{
+  "ApplicationEffects": {
+    "EntityBottomTint": "#000000",
+    "EntityTopTint": "#1a1a1a",
+    "Particles": [
+      {
+        "SystemId": "ShadowStep_Invis",
+        "TargetNodeName": "Hip",
+        "PositionOffset": {
+          "Y": 0.5
+        }
+      }
+    ]
+  },
+  "OverlapBehavior": "Overwrite",
+  "Infinite": false,
+  "Debuff": false,
+  "Duration": 3
+}

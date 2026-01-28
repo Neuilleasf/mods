@@ -1,0 +1,37 @@
+{
+  "Type": "Selector",
+  "RunTime": 0.3,
+  "Selector": {
+    "Id": "ShadowstepAssault",
+    "TestLineOfSight": false,
+    "ExtendTop": 0.5,
+    "ExtendLeft": 0.5,
+    "ExtendRight": 0.5,
+    "ExtendBottom": 0.5,
+    "StartDistance": 0.1,
+    "EndDistance": 2.5
+  },
+  "HitBlock": {
+    "Interactions": [
+      {
+        "Type": "ChangeStat",
+        "ValueType": "Percent",
+        "StatModifiers": {
+          "SignatureEnergy": -100
+        }
+      }
+    ]
+  },
+  "HitEntity": {
+    "Interactions": [
+      "Lighter_Daggers_Signature_Strike1"
+    ]
+  },
+  "Next": {
+    "Type": "ChangeStat",
+    "ValueType": "Percent",
+    "StatModifiers": {
+      "SignatureEnergy": -100
+    }
+  }
+}

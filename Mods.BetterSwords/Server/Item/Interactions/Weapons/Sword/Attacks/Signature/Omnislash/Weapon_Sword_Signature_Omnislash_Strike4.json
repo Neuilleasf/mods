@@ -1,0 +1,54 @@
+{
+  "Type": "Simple",
+  "Effects": {
+    "ItemAnimationId": "SpinRightStabDashCharging"
+  },
+  "RunTime": 0.12,
+  "Next": {
+    "Type": "Parallel",
+    "Interactions": [
+      {
+        "Interactions": [
+          {
+            "Type": "Replace",
+            "Var": "Omnislash_Strike4_Force",
+            "DefaultOk": true,
+            "DefaultValue": {
+              "Interactions": [
+                "Weapon_Sword_Signature_Omnislash_Strike4_Force"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "Interactions": [
+          {
+            "Type": "Replace",
+            "Var": "Omnislash_Strike4_Selector",
+            "DefaultOk": true,
+            "DefaultValue": {
+              "Interactions": [
+                "Weapon_Sword_Signature_Omnislash_Strike4_Selector"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "Interactions": [
+          {
+            "Type": "Replace",
+            "Var": "Omnislash_Strike4_Effect",
+            "DefaultOk": true,
+            "DefaultValue": {
+              "Interactions": [
+                "Weapon_Sword_Signature_Omnislash_Strike4_Effect"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

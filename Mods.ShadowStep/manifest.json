@@ -1,0 +1,20 @@
+{
+  "Group": "Mods",
+  "Name": "ShadowStep",
+  "Version": "1.0.0",
+  "Description": "ShadowStep - Améliore la signature des dagues avec invisibilité et dash plus puissant !",
+  "Authors": [
+    {
+      "Name": "Kiwi",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true,
+  "SubPlugins": []
+}

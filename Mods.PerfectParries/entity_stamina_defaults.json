@@ -1,0 +1,3306 @@
+{
+  "Camel_Calf": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Meerkat": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Rat": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Scarak_Fighter_Royal_Guard": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Fen_Stalker": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Spirit_Ember": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Goblin_Duke_Phase_3_Slow": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Frost_Archmage_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Zombie_Burnt": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Bison": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Frog_Orange": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Jellyfish_Cyan": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Mage_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Snake_Marsh": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Ranger_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Klops_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Sand_Soldier_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Rex_Cave": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Trork_Sentry": {
+    "max_stamina": 125.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.4,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Temple_Kweebec_Razorleaf_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Goblin_Lobber_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Clownfish": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Wolf_Trork_Shaman": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Vulture": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Temple_Frog_Blue": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Klops_Miner_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Bat_Ice": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Raptor_Cave": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Emberwulf": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Pig_Wild_Piglet": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Warthog": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Chicken_Desert": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Edible_Rat": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Pirate_Gunner": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Larva_Silk": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Sand_Assassin": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Bear_Grizzly": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Bison_Calf": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Temple_Klops_Merchant": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Mosshorn_Plain": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Sand_Archer_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Tuluk_Fisherman": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Toad_Rhino_Magma": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Burnt_Praetorian_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Sand_Soldier_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Trork_Mauler": {
+    "max_stamina": 120.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.7,
+    "parried_stamina_change": 30.0,
+    "stagger_chance": 0.1
+  },
+  "Skeleton_Incandescent_Mage_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Incandescent_Fighter": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Toad_Rhino": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Archaeopteryx": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Frost_Mage": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Golem_Crystal_Thunder": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Frost_Ranger": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Sand_Archmage_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Wolf_Black": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Trillodon": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Sheep_Lamb": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Wolf_Trork_Hunter": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Knight": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Fox": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Temple_Finch_Green": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Sand_Mage": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Trork_Sentry_Patrol": {
+    "max_stamina": 125.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.4,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Cow_Undead": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Frost_Solder": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Sand_Guard": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Crab_Crawler_Void": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Mage": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Sand_Archmage": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Temple_Deer_Stag": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Chicken_Chick": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Jellyfish_Red": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Goblin_Duke_Phase_2": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Frost_Archer_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Frost_Ranger_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Horse_Skeleton_Armored": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Crab": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Feran_Burrower": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Incandescent_Fighter_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Pirate": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Goblin_Thief_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Leopard_Snow": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Frost_Archer_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Dungeon_Scarak_Broodmother": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Frost_Knight": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Soldier_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Cow_Calf": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Feran_Cub": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Sand_Archer_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Feran_Civilian": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Temple_Kweebec_Seedling": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Hatworm": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Outlander_Peon": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Mouse": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Moose_Bull": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Burnt_Gunner": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Sand_Guard_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Spider": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Duck": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Sparrow": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Goat_Kid": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Wraith": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Boar_Piglet": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Kweebec_Rooting": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Sand_Assassin_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Lizard_Sand": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skrill_Chick": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Burnt_Knight": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Incandescent_Mage_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Pike": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Snapdragon": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Eel_Moray": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Armadillo": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Frostgill": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Trork_Shaman": {
+    "max_stamina": 60.0,
+    "stamina_regen_timer": 5000,
+    "stamina_regen_rate": 25.0,
+    "damaged_stamina_multiplier": 0.3,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.45
+  },
+  "Skeleton_Scout": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Ram_Lamb": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Sand_Ranger_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Lobster": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Pirate_Captain_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Frost_Scout_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Temple_Frog_Orange": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Golem_Crystal_Flame": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Temple_Feran": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Burnt_Archer": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Trilobite_Black": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Static2": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Boar": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Incandescent_Footman": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Static3": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Static4": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Rabbit": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Burnt_Solder": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Kweebec_Sproutling": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Temple_Owl_Brown": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Dungeon_Scarak_Seeker": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Dungeon_Skeleton_Sand_Soldier": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Eye_Void": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Pirate_Gunner_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Cow": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Pig": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Kweebec_Sapling": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Dungeon_Skeleton_Sand_Archer": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Mosshorn": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Burnt_Lancer_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Trork_Hunter": {
+    "max_stamina": 120.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 25.0,
+    "damaged_stamina_multiplier": 0.6,
+    "parried_stamina_change": 30.0,
+    "stagger_chance": 0.4
+  },
+  "Temple_Kweebec_Static": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Goblin_Lobber": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Pterodactyl": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Fighter": {
+    "max_stamina": 75.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Snail_Frost": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Penguin": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Archmage_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Bear_Polar": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Kweebec_Razorleaf": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Zombie_Aberrant_Big": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Shadow_Knight": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Hawk": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Cactee": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Hedera": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Snail_Magma": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Sand_Ranger": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Wolf_Outlander_Priest": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Spider_Cave": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Larva_Void": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Klops_Merchant": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Wraith_Lantern": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Owl_Brown": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Salmon": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Burnt_Soldier_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Temple_Kweebec_Merchant": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Zombie": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Burnt_Lancer_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Sand_Archer": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Dungeon_Skeleton_Sand_Assassin": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Dungeon_Scarak_Broodmother_Young": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Fighter_Wander": {
+    "max_stamina": 75.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Frost_Fighter_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Incandescent_Mage": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Snake_Cobra": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Trork_Warrior_Patrol": {
+    "max_stamina": 120.0,
+    "stamina_regen_timer": 2500,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 30.0,
+    "stagger_chance": 0.3
+  },
+  "Goblin_Duke_Phase_3_Fast": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Burnt_Gunner_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Goblin_Scavenger_Battleaxe": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Sand_Scout": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Temple_Deer_Doe": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Dragon_Frost": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Wolf_Outlander_Sorcerer": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Burnt_Knight_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Sand_Assassin_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Incandescent_Head": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Kweebec_Seedling": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Golem_Crystal_Frost": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Pig_Undead": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Spirit_Thunder": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Fighter_Patrol": {
+    "max_stamina": 75.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Trout_Rainbow": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Burnt_Gunner_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Shellfish_Lava": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Ranger_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Pig_Wild": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Scarak_Defender": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Spirit_Frost": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Burnt_Knight_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Burnt_Soldier_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Antelope": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Frog_Blue": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Mage_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Goblin_Scavenger": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Sheep": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Knight_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Pirate_Captain_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Turkey_Chick": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Minnow": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Frost_Mage_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Trork_Chieftain": {
+    "max_stamina": 180.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 20.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 30.0,
+    "stagger_chance": 0.3
+  },
+  "Temple_Kweebec_Rootling_Static": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Trork_Warrior": {
+    "max_stamina": 120.0,
+    "stamina_regen_timer": 2500,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 30.0,
+    "stagger_chance": 0.3
+  },
+  "Hound_Bleached": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Spirit_Root": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Klops_Miner": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Snapjaw": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Outlander_Marauder": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Pufferfish": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Zombie_Frost": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Goblin_Miner_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Scarak_Seeker": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Burnt_Wizard_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Frost_Knight_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Knight_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Hyena": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Spawn_Void": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Burnt_Praetorian": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Pirate_Captain": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Moose_Cow": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Sand_Soldier": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Scarak_Louse": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Dungeon_Scarak_Louse": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Chicken": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Deer_Stag": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Squirrel": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Chicken_Desert_Chick": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Raven": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Spectre_Void": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Goblin_Scrapper_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Slug_Magma": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Ranger": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Frost_Fighter_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Scarak_Fighter": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Incandescent_Footman_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Dungeon_Scarak_Fighter_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Frost_Knight_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Temple_Kweebec_Razorleaf": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Edible_Goblin_Scrapper": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Archmage": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Archmage_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Feran_Windwalker": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Temple_Feran_Longtooth": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Klops_Gentleman": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Golem_Crystal_Sand": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Scorpion": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Frost_Scout_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Yeti": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Goblin_Ogre": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Archer": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Klops_Wandering": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Burnt_Wizard_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Temple_Bunny": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Finch_Green": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Crow": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Outlander_Brute": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Tang_Sailfin": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Frost_Soldier_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Bluebird": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Frog_Green": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Dungeon_Scarak_Fighter": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Temple_Kweebec_Razorleaf_Patrol4": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Temple_Kweebec_Razorleaf_Patrol5": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Temple_Kweebec_Razorleaf_Patrol2": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Temple_Kweebec_Razorleaf_Patrol3": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Goblin_Scavenger_Sword": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Temple_Bluebird": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Temple_Kweebec_Razorleaf_Patrol1": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Pigeon": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Horse_Skeleton": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Owl_Snow": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Incandescent_Footman_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Pirate_Gunner_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Golem_Crystal_Earth": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Kweebec_Razerleaf_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Frost_Fighter": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Ghoul": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Static": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Temple_Frog_Green": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Bunny": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Burnt_Wizard": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Outlander_Sorcerer": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Temple_Klops": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Tang_Blue": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Dungeon_Scarak_Defender_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Scarak_Fighter_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Feran_Sharptooth": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Snake_Rattle": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Goblin_Thief": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Jellyfish_Blue": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Burnt_Alchemist": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Zombie_Aberrant": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Incandescent_Fighter_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Kweebec_Sapling_Pink": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Sand_Ranger_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Temple_Kweebec_Seedling_Static": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Goblin_Duke": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Pirate_Striker_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Goblin_Scrapper": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Soldier": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Frost_Mage_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Trork_Doctor_Witch": {
+    "max_stamina": 60.0,
+    "stamina_regen_timer": 5000,
+    "stamina_regen_rate": 25.0,
+    "damaged_stamina_multiplier": 0.3,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.45
+  },
+  "Piranha_Black": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Frost_Soldier_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Tang_Lemon_Peel": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Jellyfish_Green": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Dungeon_Scarak_Defender": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Sand_Scout_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Sand_Archmage_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Tiger_Sabertooth": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Kweebec_Sproutling_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Burnt_Alchemist_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Sand_Guard_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Deer_Doe": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Goat": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Burnt_Archer_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Kweebec_Sapling_Orange": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Scarak_Seeker_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Goblin_Miner": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Archer_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Temple_Squirrel": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Scout_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Frost_Scout": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Turkey": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Outlander_Stalker": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Frost_Archer": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Kweebec_Ekder": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Frost_Ranger_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Dragon_Fire": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Outlander_Berserker": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Goblin_Hermit": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Molerat": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Zombie_Sand": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Kweebec_Merchant": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Sand_Mage_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Chicken_Undead": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Whale_Humpback": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Camel": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Piranha": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Pirate_Striker": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Temple_Mithril_Guard": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Dungeon_Skeleton_Sand_Mage": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Catfish": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Pig_Piglet": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Zombie_Aberrant_Small": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Gecko": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Burnt_Alchemist_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Mouflon_Lamb": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Pirate_Striker_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Soldier_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Trork_Brawler": {
+    "max_stamina": 125.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.45
+  },
+  "Outlander_Priest": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Tetrabird": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Outlander_Cultist": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Wolf_White": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Horse": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Woodpecker": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Frost_Archmage": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Tortoise": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Scarak_Defender_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Scout_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Burnt_Praetorian_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Frost_Archmage_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Parrot": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Horse_Foal": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Burnt_Lancer": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Warthog_Piglet": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Trork_Guard": {
+    "max_stamina": 125.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.6,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Spark_Living": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Shark_Hammerhead": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Golem_Firesteel": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Scarak_Broodmother": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Bluegill": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Empty_Role": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Jellyfish_Yellow": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Jellyfish_Man_Of_War": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Mouflon": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skrill": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Sand_Mage_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Crocodile": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Werewolf": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Flaming": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Feran_Longtooth": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Dungeon_Scarak_Seeker_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Burnt_Archer_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Temple_Duck": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Temple_Kweebec_Elder": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Bat": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Outlander_Hunter": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Temple_Kweebec": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Archer_Patrol": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Trilobite": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Trork_Unarmed": {
+    "max_stamina": 120.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Tang_Chevron": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Skeleton_Sand_Scout_Wander": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  },
+  "Ram": {
+    "max_stamina": 100.0,
+    "stamina_regen_timer": 3000,
+    "stamina_regen_rate": 15.0,
+    "damaged_stamina_multiplier": 0.5,
+    "parried_stamina_change": 35.0,
+    "stagger_chance": 0.3
+  }
+}

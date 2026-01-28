@@ -1,0 +1,10 @@
+{
+  "RequireNewClick": true,
+  "ClickQueuingTimeout": 0.2,
+  "Cooldown": {
+    "Cooldown": 8.0
+  },
+  "Interactions": [
+    "Lighter_Daggers_Signature_Activate"
+  ]
+}

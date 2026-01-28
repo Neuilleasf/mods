@@ -1,0 +1,71 @@
+{
+  "Type": "Simple",
+  "Effects": {
+    "ItemAnimationId": "SpinRightCharging",
+    "LocalSoundEventId": "SFX_Fire",
+    "WorldSoundEventId": "SFX_Fire"
+  },
+  "RunTime": 0.5,
+  "Next": {
+    "Type": "Parallel",
+    "$Comment": "Make sure this parallel interaction is needed and can't be optimized away",
+    "Interactions": [
+      {
+        "Interactions": [
+          {
+            "Type": "Replace",
+            "Var": "Vortexstrike_Spin_Force",
+            "DefaultOk": true,
+            "DefaultValue": {
+              "Interactions": [
+                "Lighter_Weapon_Signature_VortexMace_Spin_Force"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "Interactions": [
+          {
+            "Type": "Replace",
+            "Var": "Vortexstrike_Spin_PlayerEffect",
+            "DefaultOk": true,
+            "DefaultValue": {
+              "Interactions": [
+                {
+                  "$Comment": "Status effect on the player on cast before the animation",
+                  "Type": "ApplyEffect",
+                  "EffectId": "Mace_Signature"
+                }
+              ]
+            }
+          },
+          {
+            "Type": "Replace",
+            "Var": "Vortexstrike_Spin_Selector",
+            "DefaultOk": true,
+            "DefaultValue": {
+              "Interactions": [
+                "Lighter_Weapon_Signature_VortexMace_Spin_Selector"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "Interactions": [
+          {
+            "Type": "Replace",
+            "Var": "Vortexstrike_Spin_Effect",
+            "DefaultOk": true,
+            "DefaultValue": {
+              "Interactions": [
+                "Lighter_Weapon_Signature_VortexMace_Spin_Effect"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

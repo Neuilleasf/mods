@@ -1,0 +1,12 @@
+{
+  "Duration": 0.5,
+  "ApplicationEffects": {
+    "Particles": [
+      {
+        "SystemId": "Beam_Heal_Red_Old",
+        "TargetEntityPart": "Entity",
+        "TargetNodeName": "Chest"
+      }
+    ]
+  }
+}

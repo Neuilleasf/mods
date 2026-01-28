@@ -1,0 +1,14 @@
+{
+  "Infinite": false,
+  "DamageResistance": {
+    "Fall": [
+      {
+        "Amount": 1.0,
+        "CalculationType": "Multiplicative"
+      }
+    ]
+  },
+  "ValueType": "Absolute",
+  "Duration": 1,
+  "RemovalBehavior": "Duration"
+}

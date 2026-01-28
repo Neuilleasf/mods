@@ -1,0 +1,20 @@
+{
+  "Group": "Mods",
+  "Name": "ModSword",
+  "Version": "1.0.0",
+  "Description": "Power Thrust - Modifie le coup d'estoc de l'épée en cuivre pour un impact dévastateur !",
+  "Authors": [
+    {
+      "Name": "mira",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true,
+  "SubPlugins": []
+}

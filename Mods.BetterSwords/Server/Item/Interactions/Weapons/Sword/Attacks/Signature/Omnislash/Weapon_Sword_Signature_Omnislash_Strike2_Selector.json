@@ -1,0 +1,30 @@
+{
+  "Type": "Selector",
+  "RunTime": 0.1,
+  "Selector": {
+    "Id": "Horizontal",
+    "Direction": "ToRight",
+    "TestLineOfSight": true,
+    "ExtendTop": 0.5,
+    "ExtendBottom": 1,
+    "StartDistance": 0.1,
+    "EndDistance": 3,
+    "Length": 120,
+    "RollOffset": 0,
+    "YawStartOffset": -60
+  },
+  "HitEntity": {
+    "Interactions": [
+      {
+        "Type": "Replace",
+        "Var": "Omnislash_Strike2_Damage",
+        "DefaultOk": true,
+        "DefaultValue": {
+          "Interactions": [
+            "Weapon_Sword_Signature_Omnislash_Damage"
+          ]
+        }
+      }
+    ]
+  }
+}

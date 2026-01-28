@@ -1,0 +1,36 @@
+{
+  "Parent": "DamageEntityParent",
+  "DamageCalculator": {
+    "Class": "Signature",
+    "BaseDamage": {
+      "Physical": 18
+    }
+  },
+  "DamageEffects": {
+    "Knockback": {
+      "Type": "Force",
+      "VelocityConfig": {
+        "AirResistance": 0.99,
+        "AirResistanceMax": 0.98,
+        "GroundResistance": 0.94,
+        "GroundResistanceMax": 0.3,
+        "Threshold": 3.0,
+        "Style": "Linear"
+      },
+      "Direction": {
+        "X": 0.0,
+        "Y": 1.5,
+        "Z": -3
+      },
+      "Force": 18,
+      "VelocityType": "Add"
+    },
+    "WorldParticles": [
+      {
+        "SystemId": "Impact_Critical",
+        "Scale": 1.2
+      }
+    ],
+    "CameraEffect": "Impact_Light"
+  }
+}

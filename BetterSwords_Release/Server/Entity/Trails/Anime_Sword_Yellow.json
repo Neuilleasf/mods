@@ -1,0 +1,16 @@
+{
+  "TexturePath": "Trails/Signature.png",
+  "LifeSpan": 8,
+  "Roll": 0,
+  "Start": {
+    "Color": "rgba(#ffd700, 1)",
+    "Width": 1.2
+  },
+  "End": {
+    "Color": "rgba(#ffaa00, 0.3)",
+    "Width": 0.0
+  },
+  "LightInfluence": 0.4,
+  "Smooth": true,
+  "RenderMode": "BlendLinear"
+}

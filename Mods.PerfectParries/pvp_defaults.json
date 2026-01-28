@@ -1,0 +1,6 @@
+{
+  "enablePvPParryEffects": true,
+  "parriedStaminaDamage": 2,
+  "parriedStaminaRegenCooldownSeconds": 1.5,
+  "enableSuperKnockback": false
+}

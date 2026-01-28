@@ -1,0 +1,55 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Fire_AoE_Spawn_Flash",
+      "StartDelay": 0.4,
+      "WaveDelay": {
+        "Min": 0.4
+      }
+    },
+    {
+      "SpawnerId": "Fire_AoE_Spawn_Sparks",
+      "FixedRotation": false,
+      "PositionOffset": {
+        "Y": 0.2
+      },
+      "StartDelay": 0.4,
+      "WaveDelay": {
+        "Min": 0.4
+      }
+    },
+    {
+      "SpawnerId": "Fire_AoE_Spawn_Spawn2",
+      "PositionOffset": {
+        "Y": 0.2
+      },
+      "StartDelay": 0.4,
+      "WaveDelay": {
+        "Min": 0.4
+      }
+    },
+    {
+      "SpawnerId": "Fire_AoE_Spawn_Spawn",
+      "PositionOffset": {
+        "Y": 0.2
+      },
+      "StartDelay": 0.4,
+      "WaveDelay": {
+        "Min": 0.4
+      }
+    },
+    {
+      "SpawnerId": "Fire_AoE_Spawn_Circle_Custom",
+      "FixedRotation": true,
+      "StartDelay": 0.5,
+      "LifeSpan": {
+        "Min": 0
+      },
+      "WaveDelay": {
+        "Min": 0.5
+      }
+    }
+  ],
+  "BoundingRadius": 10,
+  "IsImportant": true
+}

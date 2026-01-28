@@ -1,0 +1,12 @@
+{
+  "Duration": 0.5,
+  "ApplicationEffects": {
+    "Particles": [
+      {
+        "SystemId": "PP_Stamina_Regen",
+        "TargetEntityPart": "Entity",
+        "TargetNodeName": "Chest"
+      }
+    ]
+  }
+}

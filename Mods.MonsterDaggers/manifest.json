@@ -1,0 +1,24 @@
+{
+  "Group": "Mods",
+  "Name": "MonsterDaggers",
+  "Version": "1.0.0",
+  "Description": "Dagues légendaires style monstre/bête. Primary: Beast Frenzy - combo 4 slashs avec rage progressive. Secondary: Savage Counter - contre-attaque brutale. Signature: Rampage - dash dévastateur avec explosion de dégâts.",
+  "Authors": [
+    {
+      "Name": "Kiwi",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "Dependencies": {
+    "Hytale:EntityModule": "*",
+    "Hytale:AssetModule": "*"
+  },
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "Main": "mods.monsterdaggers.MonsterDaggersPlugin",
+  "IncludesAssetPack": true,
+  "SubPlugins": []
+}

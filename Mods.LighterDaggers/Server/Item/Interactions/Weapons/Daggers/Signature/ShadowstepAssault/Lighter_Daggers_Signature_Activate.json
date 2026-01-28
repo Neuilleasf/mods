@@ -1,0 +1,75 @@
+{
+  "Type": "StatsCondition",
+  "Costs": {
+    "SignatureEnergy": 100
+  },
+  "ValueType": "Percent",
+  "Next": {
+    "Type": "Serial",
+    "Interactions": [
+      {
+        "Type": "ApplyEffect",
+        "EffectId": "Lighter_Daggers_Shadowstep"
+      },
+      {
+        "Type": "Replace",
+        "Var": "Shadowstep_Strike1",
+        "DefaultOk": true,
+        "DefaultValue": {
+          "Interactions": [
+            "Lighter_Daggers_Signature_Strike1"
+          ]
+        }
+      },
+      {
+        "Type": "Replace",
+        "Var": "Shadowstep_Strike2",
+        "DefaultOk": true,
+        "DefaultValue": {
+          "Interactions": [
+            "Lighter_Daggers_Signature_Strike2"
+          ]
+        }
+      },
+      {
+        "Type": "Replace",
+        "Var": "Shadowstep_Strike3",
+        "DefaultOk": true,
+        "DefaultValue": {
+          "Interactions": [
+            "Lighter_Daggers_Signature_Strike3"
+          ]
+        }
+      },
+      {
+        "Type": "Replace",
+        "Var": "Shadowstep_Strike4",
+        "DefaultOk": true,
+        "DefaultValue": {
+          "Interactions": [
+            "Lighter_Daggers_Signature_Strike4"
+          ]
+        }
+      },
+      {
+        "Type": "Simple",
+        "RunTime": 0.1,
+        "Next": {
+          "Type": "Serial",
+          "Interactions": [
+            {
+              "Type": "Replace",
+              "Var": "Shadowstep_Selector",
+              "DefaultOk": true,
+              "DefaultValue": {
+                "Interactions": [
+                  "Lighter_Daggers_Signature_Selector"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

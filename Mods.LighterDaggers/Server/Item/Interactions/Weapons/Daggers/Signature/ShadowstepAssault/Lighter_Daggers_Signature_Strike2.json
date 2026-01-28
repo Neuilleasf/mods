@@ -1,0 +1,43 @@
+{
+  "Type": "Serial",
+  "Interactions": [
+    {
+      "Type": "Simple",
+      "RunTime": 0.12,
+      "Effects": {
+        "ItemAnimationId": "RazorstrikeLunge",
+        "WorldSoundEventId": "SFX_Daggers_T2_Signature_P3",
+        "LocalSoundEventId": "SFX_Daggers_T2_Signature_P3_Local"
+      }
+    },
+    {
+      "Type": "Selector",
+      "RunTime": 0.1,
+      "Selector": {
+        "Id": "ShadowstepStrike2",
+        "TestLineOfSight": false,
+        "ExtendTop": 0.5,
+        "ExtendLeft": 0.5,
+        "ExtendRight": 0.5,
+        "ExtendBottom": 0.5,
+        "StartDistance": 0.1,
+        "EndDistance": 2.0
+      },
+      "HitEntity": {
+        "Interactions": [
+          "Lighter_Daggers_Signature_Strike2_Damage"
+        ]
+      },
+      "Next": {
+        "Type": "Replace",
+        "Var": "Shadowstep_Strike3",
+        "DefaultOk": true,
+        "DefaultValue": {
+          "Interactions": [
+            "Lighter_Daggers_Signature_Strike3"
+          ]
+        }
+      }
+    }
+  ]
+}

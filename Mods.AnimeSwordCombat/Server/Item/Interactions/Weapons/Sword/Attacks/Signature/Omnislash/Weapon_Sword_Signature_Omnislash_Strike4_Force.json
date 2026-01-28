@@ -1,0 +1,15 @@
+{
+  "Type": "ApplyForce",
+  "Direction": { "X": 0, "Y": 0.05, "Z": -1 },
+  "AdjustVertical": true,
+  "Force": 28,
+  "ChangeVelocityType": "Set",
+  "VelocityConfig": {
+    "AirResistance": 0.97,
+    "AirResistanceMax": 0.96,
+    "GroundResistance": 0.94,
+    "GroundResistanceMax": 0.88,
+    "Threshold": 3.0,
+    "Style": "Exp"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "Type": "Simple",
+  "RunTime": 0.2,
+  "Effects": {
+    "Trails": [
+      {
+        "PositionOffset": {
+          "X": 0.8,
+          "Y": 0,
+          "Z": 0
+        },
+        "RotationOffset": {
+          "Pitch": 0,
+          "Roll": 90,
+          "Yaw": 0
+        },
+        "TargetNodeName": "Handle",
+        "TrailId": "Medium_Signature"
+      }
+    ],
+    "WorldSoundEventId": "SFX_Sword_T2_Signature_Part_2",
+    "LocalSoundEventId": "SFX_Sword_T2_Signature_Part_2_Local",
+    "Particles": [
+      {
+        "SystemId": "Sword_Signature_Dash_Effect",
+        "PositionOffset": {
+          "X": -1.0,
+          "Y": 0
+        },
+        "TargetNodeName": "Handle"
+      },
+      {
+        "SystemId": "Sword_Signature_Dash_Trail",
+        "TargetEntityPart": "Entity",
+        "PositionOffset": {
+          "Y": 0.5,
+          "Z": 0.5
+        },
+        "TargetNodeName": "Hip",
+        "RotationOffset": {
+          "Yaw": -90.0
+        }
+      },
+      {
+        "SystemId": "Impact_Sword_Signature",
+        "TargetNodeName": "Handle",
+        "Scale": 1.2
+      },
+      {
+        "SystemId": "Impact_Feathers_Black",
+        "TargetNodeName": "Hip",
+        "TargetEntityPart": "Entity",
+        "Scale": 0.8
+      }
+    ],
+    "CameraEffect": "Sword_Stab"
+  }
+}

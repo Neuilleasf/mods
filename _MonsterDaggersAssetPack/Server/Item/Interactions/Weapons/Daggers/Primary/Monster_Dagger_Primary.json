@@ -1,0 +1,43 @@
+{
+  "Type": "Charging",
+  "DisplayProgress": false,
+  "HorizontalSpeedMultiplier": 0.6,
+  "Effects": {
+    "ItemAnimationId": "PounceStabCharging",
+    "FirstPersonParticles": [
+      {
+        "PositionOffset": { "X": -0.3, "Y": 0.5, "Z": 0 },
+        "RotationOffset": { "Pitch": 0, "Roll": 90, "Yaw": 0 },
+        "TargetNodeName": "Handle",
+        "SystemId": "Dagger_Charging_FP"
+      },
+      {
+        "PositionOffset": { "X": -0.3, "Y": 0.5, "Z": 0 },
+        "RotationOffset": { "Pitch": 0, "Roll": 90, "Yaw": 0 },
+        "TargetNodeName": "Handle",
+        "SystemId": "Dagger_Charging_FP",
+        "TargetEntityPart": "SecondaryItem"
+      }
+    ],
+    "Particles": [
+      {
+        "PositionOffset": { "X": 0.3, "Y": 0, "Z": 0 },
+        "RotationOffset": { "Pitch": 0, "Roll": 90, "Yaw": 0 },
+        "TargetNodeName": "Handle",
+        "SystemId": "Dagger_Charging"
+      },
+      {
+        "PositionOffset": { "X": 0.3, "Y": 0, "Z": 0 },
+        "RotationOffset": { "Pitch": 0, "Roll": 90, "Yaw": 0 },
+        "TargetNodeName": "Handle",
+        "SystemId": "Dagger_Charging",
+        "TargetEntityPart": "SecondaryItem"
+      }
+    ]
+  },
+  "AllowIndefiniteHold": false,
+  "Next": {
+    "0": "Weapon_Daggers_Primary_Chain",
+    "0.35": "Monster_Dagger_Primary_BeastRush"
+  }
+}

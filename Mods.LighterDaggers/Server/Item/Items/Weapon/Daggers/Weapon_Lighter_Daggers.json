@@ -1,0 +1,211 @@
+{
+  "Parent": "Template_Weapon_Daggers",
+  "TranslationProperties": {
+    "Name": "server.items.Weapon_Lighter_Daggers.name"
+  },
+  "Quality": "Legendary",
+  "ItemLevel": 40,
+  "Recipe": {
+    "TimeSeconds": 4.5,
+    "Input": [
+      {
+        "ItemId": "Weapon_Daggers_Iron",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_Essence_Shadow",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_Feather_Black",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Weapon_Daggers"
+        ],
+        "Id": "Weapon_Bench",
+        "RequiredTierLevel": 3
+      }
+    ]
+  },
+  "InteractionVars": {
+    "PhantomPounce_Dash1_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Daggers_Primary_Pounce_Stab_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 15
+            }
+          },
+          "EntityStatsOnHit": [
+            {
+              "EntityStatId": "SignatureEnergy",
+              "Amount": 3
+            }
+          ],
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Daggers_T2_Stab_Impact",
+            "LocalSoundEventId": "SFX_Daggers_T2_Stab_Impact"
+          }
+        }
+      ]
+    },
+    "PhantomPounce_Dash2_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Daggers_Primary_Pounce_Stab_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 20
+            }
+          },
+          "EntityStatsOnHit": [
+            {
+              "EntityStatId": "SignatureEnergy",
+              "Amount": 4
+            }
+          ],
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Daggers_T2_Stab_Impact",
+            "LocalSoundEventId": "SFX_Daggers_T2_Stab_Impact"
+          }
+        }
+      ]
+    },
+    "PhantomPounce_Dash3_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Daggers_Primary_Pounce_Stab_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 25
+            }
+          },
+          "EntityStatsOnHit": [
+            {
+              "EntityStatId": "SignatureEnergy",
+              "Amount": 5
+            }
+          ],
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Daggers_T2_Stab_Impact",
+            "LocalSoundEventId": "SFX_Daggers_T2_Stab_Impact"
+          }
+        }
+      ]
+    },
+    "Shadowstep_Strike1_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Daggers_Signature_Razorstrike_Lunge_Damage",
+          "DamageMultiplier": 1.5,
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Daggers_T2_Slash_Impact",
+            "LocalSoundEventId": "SFX_Daggers_T2_Slash_Impact"
+          }
+        }
+      ]
+    },
+    "Shadowstep_Strike2_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Daggers_Signature_Razorstrike_Lunge_Damage",
+          "DamageMultiplier": 1.5,
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Daggers_T2_Slash_Impact",
+            "LocalSoundEventId": "SFX_Daggers_T2_Slash_Impact"
+          }
+        }
+      ]
+    },
+    "Shadowstep_Strike3_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Daggers_Signature_Razorstrike_Lunge_Damage",
+          "DamageMultiplier": 2.0,
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Daggers_T2_Slash_Impact",
+            "LocalSoundEventId": "SFX_Daggers_T2_Slash_Impact"
+          }
+        }
+      ]
+    },
+    "Shadowstep_Strike4_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Daggers_Signature_Razorstrike_Lunge_Damage",
+          "DamageMultiplier": 3.0,
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Daggers_T2_Slash_Impact",
+            "LocalSoundEventId": "SFX_Daggers_T2_Slash_Impact"
+          }
+        }
+      ]
+    }
+  },
+  "MaxDurability": 300,
+  "DurabilityLossOnHit": 0.05,
+  "Particles": [
+    {
+      "SystemId": "Dagger_Signature",
+      "TargetNodeName": "Handle",
+      "PositionOffset": {
+        "X": 0.5
+      },
+      "TargetEntityPart": "PrimaryItem"
+    },
+    {
+      "SystemId": "Dagger_Signature",
+      "TargetNodeName": "Handle",
+      "PositionOffset": {
+        "X": 0.5
+      },
+      "TargetEntityPart": "SecondaryItem"
+    }
+  ],
+  "Trails": [
+    {
+      "PositionOffset": {
+        "X": 0.5,
+        "Y": 0,
+        "Z": 0
+      },
+      "RotationOffset": {
+        "Pitch": 0,
+        "Roll": 90,
+        "Yaw": 0
+      },
+      "TargetNodeName": "Handle",
+      "TargetEntityPart": "PrimaryItem",
+      "TrailId": "Small_Charged"
+    },
+    {
+      "PositionOffset": {
+        "X": 0.5,
+        "Y": 0,
+        "Z": 0
+      },
+      "RotationOffset": {
+        "Pitch": 0,
+        "Roll": 90,
+        "Yaw": 0
+      },
+      "TargetNodeName": "Handle",
+      "TargetEntityPart": "SecondaryItem",
+      "TrailId": "Small_Charged"
+    }
+  ],
+  "Light": {
+    "Color": "#6600cc",
+    "Radius": 1
+  }
+}

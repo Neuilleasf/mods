@@ -1,0 +1,71 @@
+{
+  "Type": "StatsCondition",
+  "Costs": {
+    "SignatureEnergy": 100
+  },
+  "ValueType": "Percent",
+  "Next": {
+    "Type": "Serial",
+    "Interactions": [
+      {
+        "Type": "Replace",
+        "Var": "Omnislash_Strike1",
+        "DefaultOk": true,
+        "DefaultValue": {
+          "Interactions": [
+            "Weapon_Sword_Signature_Omnislash_Strike1"
+          ]
+        }
+      },
+      {
+        "Type": "Simple",
+        "RunTime": 0.03
+      },
+      {
+        "Type": "Replace",
+        "Var": "Omnislash_Strike2",
+        "DefaultOk": true,
+        "DefaultValue": {
+          "Interactions": [
+            "Weapon_Sword_Signature_Omnislash_Strike2"
+          ]
+        }
+      },
+      {
+        "Type": "Simple",
+        "RunTime": 0.03
+      },
+      {
+        "Type": "Replace",
+        "Var": "Omnislash_Strike3",
+        "DefaultOk": true,
+        "DefaultValue": {
+          "Interactions": [
+            "Weapon_Sword_Signature_Omnislash_Strike3"
+          ]
+        }
+      },
+      {
+        "Type": "Simple",
+        "RunTime": 0.04
+      },
+      {
+        "Type": "Replace",
+        "Var": "Omnislash_Strike4",
+        "DefaultOk": true,
+        "DefaultValue": {
+          "Interactions": [
+            "Weapon_Sword_Signature_Omnislash_Strike4"
+          ]
+        }
+      },
+      {
+        "Type": "ChangeStat",
+        "StatModifiers": {
+          "SignatureEnergy": -100
+        },
+        "ValueType": "Percent"
+      }
+    ]
+  }
+}

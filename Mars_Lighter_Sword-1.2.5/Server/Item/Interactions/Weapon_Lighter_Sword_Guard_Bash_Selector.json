@@ -1,0 +1,50 @@
+{
+  "Type": "Selector",
+  "$Comment": "Length of Combat",
+  "RunTime": 0.083,
+  "Effects": {
+    "CameraEffect": "Sword_Bash",
+    "WorldSoundEventId": "SFX_Explosion",
+    "LocalSoundEventId": "SFX_Explosion"
+  },
+  "Selector": {
+    "Id": "AOECircle",
+    "Range": 3.5
+  },
+  "HitBlock": {
+    "Interactions": [
+      "Block_Break_Adventure"
+    ]
+  },
+  "HitEntity": {
+    "Interactions": [
+      {
+        "Type": "Replace",
+        "Var": "Guard_Bash_Damage",
+        "DefaultOk": true,
+        "DefaultValue": {
+          "Interactions": [
+            "Weapon_Lighter_Sword_Guard_Bash_Damage",
+            "ApplyBurn"
+          ],
+          "Rules": {
+            "BlockedBy": [
+              "Primary",
+              "Secondary"
+            ],
+            "Blocking": [
+              "Primary",
+              "Secondary"
+            ]
+          }
+        },
+        "Rules": {}
+      }
+    ]
+  },
+  "Next": {
+    "Type": "Simple",
+    "RunTime": 0.333,
+    "Effects": {}
+  }
+}

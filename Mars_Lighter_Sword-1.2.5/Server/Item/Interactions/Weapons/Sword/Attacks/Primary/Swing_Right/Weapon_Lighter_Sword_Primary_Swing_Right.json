@@ -1,0 +1,19 @@
+{
+  "Type": "Simple",
+  "RunTime": 0.117,
+  "Effects": {
+    "ItemAnimationId": "SwingRight",
+    "WorldSoundEventId": "SFX_Battleaxe_T2_Swing",
+    "LocalSoundEventId": "SFX_Battleaxe_T2_Swing_RL_Local"
+  },
+  "Next": {
+    "Type": "Replace",
+    "Var": "Swing_Right_Selector",
+    "DefaultOk": true,
+    "DefaultValue": {
+      "Interactions": [
+        "Weapon_Lighter_Sword_Primary_Swing_Right_Selector"
+      ]
+    }
+  }
+}

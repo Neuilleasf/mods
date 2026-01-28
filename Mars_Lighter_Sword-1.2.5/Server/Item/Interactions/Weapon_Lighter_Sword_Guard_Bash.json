@@ -1,0 +1,89 @@
+{
+  "Type": "Serial",
+  "Interactions": [
+    {
+      "Type": "ApplyEffect",
+      "EffectId": "Stamina_Broken_Immune"
+    },
+    {
+      "Type": "ChangeStat",
+      "StatModifiers": {
+        "Stamina": -5
+      },
+      "Effects": {
+        "ItemAnimationId": "GuardBash",
+        "WorldSoundEventId": "SFX_Light_Melee_T1_Shove",
+        "LocalSoundEventId": "SFX_Sword_T1_Shove_Local",
+        "Particles": [
+          {
+            "SystemId": "Fire_AoE_Spawn_Custom",
+            "PositionOffset": {
+              "X": 0,
+              "Z": 2
+            }
+          },
+          {
+            "SystemId": "Fire_Staff_Activasion_Custom",
+            "PositionOffset": {
+              "X": 0,
+              "Z": 1,
+              "Y": 0
+            }
+          },
+          {
+            "SystemId": "Stick_Slam_Ground_Custom",
+            "TargetNodeName": "Hip",
+            "RotationOffset": {
+              "Yaw": 90
+            },
+            "PositionOffset": {
+              "X": -1,
+              "Y": 0,
+              "Z": 0.5
+            }
+          },
+          {
+            "SystemId": "Explosion_Medium_Custom",
+            "PositionOffset": {
+              "Y": 0,
+              "Z": 2
+            }
+          },
+          {
+            "SystemId": "Flamethrower",
+            "TargetEntityPart": "PrimaryItem",
+            "PositionOffset": {
+              "X": 2,
+              "Y": 0,
+              "Z": 0
+            },
+            "RotationOffset": {
+              "Pitch": 0,
+              "Roll": 0,
+              "Yaw": -90
+            },
+            "TargetNodeName": "Handle"
+          }
+        ]
+      },
+      "RunTime": 0.4,
+      "Next": {
+        "Type": "ChangeStat",
+        "Behaviour": "Set",
+        "StatModifiers": {
+          "StaminaRegenDelay": -1.5
+        },
+        "Next": {
+          "Type": "Replace",
+          "Var": "Guard_Bash_Selector",
+          "DefaultOk": true,
+          "DefaultValue": {
+            "Interactions": [
+              "Weapon_Lighter_Sword_Guard_Bash_Selector"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

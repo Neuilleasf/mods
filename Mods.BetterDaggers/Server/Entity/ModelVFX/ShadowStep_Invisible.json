@@ -1,0 +1,16 @@
+{
+  "SwitchTo": "PostColor",
+  "EffectDirection": "BottomUp",
+  "AnimationDuration": 0.5,
+  "NoiseScale": {
+    "X": 25.0,
+    "Y": 25.0
+  },
+  "PostColorOpacity": 0.12,
+  "LoopOption": "LoopMirror",
+  "CurveType": "QuartOut",
+  "HighlightThickness": 2.0,
+  "UseBloomOnHighlight": true,
+  "HighlightColor": "#1a1a2e",
+  "PostColor": "#0a0a15"
+}

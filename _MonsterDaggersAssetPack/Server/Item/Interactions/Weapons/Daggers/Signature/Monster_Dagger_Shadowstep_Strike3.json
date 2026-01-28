@@ -1,0 +1,20 @@
+{
+  "Type": "Parallel",
+  "Interactions": [
+    {
+      "Interactions": [
+        "Monster_Dagger_Shadowstep_Strike3_Force",
+        "Monster_Dagger_Shadowstep_Strike3_Selector"
+      ]
+    },
+    {
+      "Interactions": [
+        {
+          "Type": "Simple",
+          "RunTime": 0.12,
+          "Effects": { "ItemAnimationId": "RazorstrikeLunge" }
+        }
+      ]
+    }
+  ]
+}

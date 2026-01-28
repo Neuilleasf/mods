@@ -1,0 +1,71 @@
+{
+  "Type": "Simple",
+  "RunTime": 0.334,
+  "Effects": {
+    "ItemAnimationId": "RazorstrikeCharging",
+    "Particles": [
+      {
+        "SystemId": "Dagger_Signature_Cast",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Handle",
+        "Scale": 0.8
+      },
+      {
+        "SystemId": "Dagger_Signature_Cast",
+        "TargetEntityPart": "SecondaryItem",
+        "TargetNodeName": "Handle",
+        "Scale": 0.8
+      }
+    ],
+    "Trails": [
+      {
+        "PositionOffset": { "X": 0.5, "Y": 0, "Z": 0 },
+        "RotationOffset": { "Pitch": 0, "Roll": 90, "Yaw": 0 },
+        "TargetNodeName": "Handle",
+        "TrailId": "Small_Charged"
+      },
+      {
+        "PositionOffset": { "X": 0.5, "Y": 0, "Z": 0 },
+        "RotationOffset": { "Pitch": 0, "Roll": 90, "Yaw": 0 },
+        "TargetNodeName": "Handle",
+        "TrailId": "Small_Charged",
+        "TargetEntityPart": "SecondaryItem"
+      }
+    ],
+    "WorldSoundEventId": "SFX_Daggers_T2_Signature_P1",
+    "LocalSoundEventId": "SFX_Daggers_T2_Signature_P1_Local"
+  },
+  "Next": {
+    "Type": "Parallel",
+    "Interactions": [
+      {
+        "Interactions": [
+          {
+            "Type": "Replace",
+            "Var": "Razorstrike_Slash_Selector",
+            "DefaultOk": true,
+            "DefaultValue": {
+              "Interactions": [
+                "Weapon_Daggers_Signature_Razorstrike_Slash_Selector"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "Interactions": [
+          {
+            "Type": "Replace",
+            "Var": "Razorstrike_Slash_Force",
+            "DefaultOk": true,
+            "DefaultValue": {
+              "Interactions": [
+                "Monster_Dagger_Signature_Slash_Force"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

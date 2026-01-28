@@ -1,0 +1,11 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/PerfectParries/GuardBreak/SFX_PP_Guard_Broken.ogg"
+      ]
+    }
+  ],
+  "Volume": 10,
+  "Parent": "SFX_Attn_Moderate"
+}

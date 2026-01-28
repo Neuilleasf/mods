@@ -1,0 +1,27 @@
+{
+  "Type": "Selector",
+  "RunTime": 0.15,
+  "Selector": {
+    "Id": "Stab",
+    "TestLineOfSight": true,
+    "ExtendTop": 0.5,
+    "ExtendRight": 0.5,
+    "ExtendBottom": 0.5,
+    "StartDistance": 0.1,
+    "EndDistance": 4
+  },
+  "HitEntity": {
+    "Interactions": [
+      {
+        "Type": "Replace",
+        "Var": "Omnislash_Strike4_Damage",
+        "DefaultOk": true,
+        "DefaultValue": {
+          "Interactions": [
+            "Weapon_Sword_Signature_Omnislash_Damage"
+          ]
+        }
+      }
+    ]
+  }
+}

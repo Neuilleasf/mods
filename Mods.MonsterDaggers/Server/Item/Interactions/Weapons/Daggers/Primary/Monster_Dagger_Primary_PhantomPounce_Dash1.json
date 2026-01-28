@@ -1,0 +1,16 @@
+{
+  "Type": "Serial",
+  "Interactions": [
+    {
+      "Type": "ApplyEffect",
+      "EffectId": "Monster_Phantom_Tint"
+    },
+    "Monster_Dagger_Primary_PhantomPounce_Dash1_Force",
+    "Monster_Dagger_Primary_PhantomPounce_Dash1_Selector",
+    {
+      "Type": "Simple",
+      "RunTime": 0.05,
+      "Next": "Monster_Dagger_Primary_PhantomPounce_Dash2"
+    }
+  ]
+}

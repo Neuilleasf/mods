@@ -1,0 +1,22 @@
+{
+    "Group": "Zuxaw",
+    "Name": "RPGLeveling",
+    "Version": "0.1.10",
+    "Description": "An RPG leveling plugin for HyTale!",
+    "Authors": [
+        {
+            "Name": "Zuxaw"
+        }
+    ],
+    "Website": "",
+    "ServerVersion": "*",
+    "Dependencies": {
+        
+    },
+    "OptionalDependencies": {
+        "Buuz135:MultipleHUD": "*"
+    },
+    "DisabledByDefault": false,
+    "Main": "org.zuxaw.plugin.RPGLevelingPlugin",
+    "IncludesAssetPack": true
+}

@@ -1,0 +1,20 @@
+{
+  "Group": "Mods",
+  "Name": "BetterDaggers",
+  "Version": "1.0.0",
+  "Description": "Enhances daggers with red particle effects, improved pounce combo (6 rapid hits with bounce), and enhanced signature with powerful dash lunge and big knockback.",
+  "Authors": [
+    {
+      "Name": "nakai",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true,
+  "SubPlugins": []
+}

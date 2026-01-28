@@ -1,0 +1,5 @@
+{
+  "Type": "ApplyEffect",
+  "EffectId": "Immunity_Test",
+  "Entity": "User"
+}

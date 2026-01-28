@@ -1,0 +1,12 @@
+eyespy.lines.2=\n
+eyespy.tier=Livello: {tier}
+eyespy.level=Livello: {level}
+eyespy.capacity=Capacità: {capacity}
+eyespy.size=Dimensione: {size}
+eyespy.progress=Progresso: {progress}%
+eyespy.state=Fase: {current}/{max}
+eyespy.timer=Timer: {time}
+eyespy.cooldown=Ricarica: {time}
+eyespy.enabled=Attivato
+eyespy.disabled=Disattivato
+eyespy.powered=Alimentato
